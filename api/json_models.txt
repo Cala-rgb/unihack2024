@@ -1,7 +1,11 @@
 parking
-    poly_points: lista puncte (lat long) [{lat: 32.1, long: 43.2,}...]
+    name: 
+    poly_points: lista puncte (latatitude longitude) [{lat: 32.1, long: 43.2,}...]
+    zone: yellow blue red sau none
+    price: pretul respectiv pe ora
     free_spaces: 
     total_spaces:
 
 biketrack
+    name: 
     line_points: lista puncte (lat long)
