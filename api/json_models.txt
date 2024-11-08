@@ -1,0 +1,7 @@
+parking
+    poly_points: lista puncte (lat long) [{lat: 32.1, long: 43.2,}...]
+    free_spaces: 
+    total_spaces:
+
+biketrack
+    line_points: lista puncte (lat long)

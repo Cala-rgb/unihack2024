@@ -1,0 +1,14 @@
+GET
+    /api/get/parking/
+        params: lat long radius
+        output: list of json objects type parking space
+    /api/get/biketracks/
+        params: lat long radius
+        output: list of json objects type biketracks
+
+POST
+    /api/post/parking/
+        params: lat long free_park_spaces
+PUT
+
+DELETE
