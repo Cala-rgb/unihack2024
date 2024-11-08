@@ -1,1 +1,1 @@
-print("ce pula mea");
+print("test");
