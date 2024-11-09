@@ -40,7 +40,7 @@ class Data:
 
     def getDataset(img_size, batch_size):
         train_ds, val_ds = keras.utils.image_dataset_from_directory(
-            "C:/Users/Deea/Desktop/unihack/unihack2024/ai/archive/cars_train/cars_train/",
+            "D:/Work/UniHack/unihack2024/ai/archive/cars_train/cars_train",
                 validation_split=0.2,
                 subset="both",
                 seed=1337,

@@ -1,13 +1,15 @@
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import numpy as np
 import keras
 from keras import layers
 from tensorflow import data as tf_data
 import matplotlib.pyplot as plt
+import tensorflow as tf
 
 from data_class import Data
 
-TRAIN_DIR = "C:/Users/Deea/Desktop/unihack/unihack2024/ai/archive/cars_train/cars_train"
+TRAIN_DIR = "D:/Work/UniHack/unihack2024/ai/archive/cars_train/cars_train"
 TEST_DIR = "C:/Users/Deea/Desktop/unihack/unihack2024/ai/archive/cars_test/cars_test"
 
 train_cars = os.listdir(TRAIN_DIR)
@@ -64,6 +66,8 @@ def make_model(input_shape, num_classes):
 
 def generate():
     model = make_model(input_shape=img_size + (3,), num_classes=2)
+
+    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
     epochs = 25
 
