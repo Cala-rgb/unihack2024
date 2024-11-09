@@ -1,8 +1,6 @@
 import torch
 import cv2
 import numpy as np
-import openai
-
 
 def detect(image_path):
     # Load YOLOv5 model (e.g., YOLOv5s for small model)
