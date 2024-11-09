@@ -12,6 +12,7 @@ The project aims help relieve some of the traffic in Timisoara by implementing a
   - Android/iOS compatible
   - Interactive Map with directions
   - Recommends the best means of transport based on time, weather, traffic and personal prefference.
-  - Gives likelyhood of finding parking spaces.
+  - Gives likelyhood of finding parking spaces
+  - Allows user reports of parking, traffic, bike tracks, bus program/route temporary changes
 
 
