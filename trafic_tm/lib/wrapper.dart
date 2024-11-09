@@ -22,7 +22,7 @@ class _WrapperState extends State<Wrapper> {
   @override
   Widget build(BuildContext context) {
     print("11111111111111111111111111111111111111111111");
-    return NavBar();
-    //return (storage.read('loginstatus') == 'true' ? true :  false) ? NavBar() : const LogIn();
+    //return NavBar();
+    return (storage.read('loginstatus') == 'true' ? true :  false) ? NavBar() : const LogIn();
   }
 }
