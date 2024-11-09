@@ -40,7 +40,7 @@ class _MapScreenState extends State<MapScreen> {
 
       ),
       body: GoogleMap(
-        mapType: MapType.hybrid,
+        mapType: MapType.normal,
         onMapCreated: _onMapCreated,
         initialCameraPosition: CameraPosition(
           target: _center,

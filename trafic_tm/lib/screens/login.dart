@@ -73,7 +73,7 @@ class _LogInState extends State<LogIn> {
                       // Use a Universal Link callback URL on iOS 17.4+ / macOS 14.4+
                       // useHTTPS is ignored on Android
                       final credentials =
-                      await auth0.webAuthentication().login(useHTTPS: true);
+                      await auth0.webAuthentication(scheme: "demo").login(useHTTPS: false);
                       storage.write('loginstatus', 'true');
 
                       Map<String, dynamic> credentialsMap = {
