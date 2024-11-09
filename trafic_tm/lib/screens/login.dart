@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:trafic_tm/screens/home.dart';
 import 'package:auth0_flutter/auth0_flutter.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,9 @@ class _LogInState extends State<LogIn> {
   @override
   void initState() {
     super.initState();
-    auth0 = Auth0('dev-qgntb086ew3ffrkd.us.auth0.com', 'XXYDz41DXJJyemSl648LR1i5f5fCu5NP');
+    String domain = dotenv.env["AUTH0_DOMAIN"]!;
+    String client = dotenv.env["AUTH0_CLIENT_ID"]!;
+    auth0 = Auth0(domain, client);
 
   }
 
