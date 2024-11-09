@@ -1,10 +1,11 @@
 import sys
 from PIL import Image
+from detect_park import detect
 
 def analyze_image(image_path):
-    img = Image.open(image_path)
-    print(f"Analyzing {image_path}")
+    return detect(image_path)
 
 if __name__ == "__main__":
     image_path = sys.argv[1]
-    analyze_image(image_path)
+    ok = analyze_image(image_path)
+    print(ok)

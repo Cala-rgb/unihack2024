@@ -17,7 +17,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-//TODO: AICI BAGAT UN UPLOAD LA BAZA DE DATE CARE FACE CEVA CU POZA ASTA CARE AM PRIMIT-O
+//TODO: AICI BAGAT UN UPLOAD LA BAZA DE DATE CARE FACE CEVA CU POZA ASTA PE CARE AM PRIMIT-O
 app.post('/api2/upload/frame', upload.single('image'), (req, res) => {
     if (!req.file) {
       return res.status(400).send({ message: 'No file uploaded' });
