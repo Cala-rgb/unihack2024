@@ -13,7 +13,6 @@ const client = new MongoClient(uri, {
   }
 });
 
- 
 async function getParkingSpaces(longitude, latitude, radius) {
   //Teoretic ar trebui sa fie un cerc dar deocamdata facem un patrat
   const minLongitude = longitude - radius;
@@ -88,4 +87,5 @@ module.exports = {
     },
 
 	getAllBikeTracks,
+
 }
