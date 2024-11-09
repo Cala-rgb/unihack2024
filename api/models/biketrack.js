@@ -15,6 +15,10 @@ const biketrackSchema = new Schema({
             required: true
         }
     },
+    length: {type: Number, default: 0},
+    quality: {type: Number, default: 0},
+    totalScore: {type: Number, default: 0},
 });
 
+biketrackSchema.index({ geometry: "2dsphere" });
 module.exports = biketrackSchema;
