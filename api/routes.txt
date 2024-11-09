@@ -9,6 +9,13 @@ GET
 POST
     /api/post/parking/
         params: lat long free_park_spaces
-PUT
+    /api/post/upload_image
 
-DELETE
+
+    API U ASTA E CU USER GEN CU TOKEN JWT
+
+POST
+    /api2/upload/frame
+    /api2/upload/frames
+
+    ASTA E API FARA TOKEN
