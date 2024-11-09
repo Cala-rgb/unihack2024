@@ -29,8 +29,8 @@ class _NavBarState extends State<NavBar> {
   List<PersistentBottomNavBarItem> _navBarsItems() {
     return [
       PersistentBottomNavBarItem(
-        icon: const Icon(Icons.web),
-        title: ("Websites"),
+        icon: const Icon(Icons.map ),
+        title: ("Map"),
         activeColorPrimary: CupertinoColors.white,
         inactiveColorPrimary: CupertinoColors.black,
         //scrollController: _scrollController2,
