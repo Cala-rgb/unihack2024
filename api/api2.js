@@ -27,8 +27,10 @@ app.post('/api2/upload/frame', upload.single('image'), (req, res) => {
   
     const pythonProcess = spawn('python3', ['../ai/exemple.py', imagePath]);
   
+    all_data = "";
+
     pythonProcess.stdout.on('data', (data) => {
-      console.log(`Python output: ${data}`);
+      all_data += data;
     });
   
     pythonProcess.stderr.on('data', (data) => {
@@ -40,7 +42,7 @@ app.post('/api2/upload/frame', upload.single('image'), (req, res) => {
         res.send({
           message: 'Image uploaded and analyzed successfully',
           file: req.file,
-          analysis: 'Analysis completed'
+          analysis: all_data,
         });
       } else {
         res.status(500).send({ message: 'Image upload succeeded, but analysis failed' });

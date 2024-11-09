@@ -54,6 +54,5 @@ def detect(image_path):
         message = "No parking spots detected based on available spacing between cars."
         ok = 0
 
-    print(message)
     return ok
 
