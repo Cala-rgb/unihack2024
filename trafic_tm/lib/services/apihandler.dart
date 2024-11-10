@@ -11,7 +11,8 @@ import 'package:http/http.dart' as http;
 
 class ApiHandler {
   static final ApiHandler _singleton = ApiHandler._internal();
-  static final String url = "http://192.168.198.60:3000";
+  //static final String url = "http://192.168.198.60:3000";
+  static final String url = "http://192.168.100.75:3000";
 
   factory ApiHandler() {
     return _singleton;
@@ -58,6 +59,11 @@ class ApiHandler {
     //print(l);
     bikeTracks = List<BikeTrack>.from(l.map((model)=> BikeTrack.fromJson(model)));
     return bikeTracks;
+  }
+
+  Future<void> postUserReport(double lon, double lat, int free_space, String user_id) async {
+    var response = await http.post(Uri.parse(url + "/api/userReport?longitude=" + lon.toString() + "&latitude=" + lat.toString() + "&free_space=" + free_space.toString() + "&user_id=" + user_id));
+    print(response.body);
   }
 
   ApiHandler._internal();

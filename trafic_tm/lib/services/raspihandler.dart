@@ -74,7 +74,6 @@ class RaspiHandler {
   }
 
 
-
   factory RaspiHandler() {
     return _singleton;
   }

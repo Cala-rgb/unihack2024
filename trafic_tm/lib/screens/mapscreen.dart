@@ -18,6 +18,7 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
 
   Set<Polygon> all_polygons = {};
+  Set<Polyline> all_polylines = {};
   bool polygonSelected = false;
   String _polygonName = "";
   int _freespaces = 0;
@@ -79,6 +80,62 @@ class _MapScreenState extends State<MapScreen> {
     var textColor = isDark ? Colors.white : Colors.black;
 
     late GoogleMapController mapController;
+
+    void showParkingStatusDialog(BuildContext context) {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('How full is the parking near you?'),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // List of options
+                ListTile(
+                  title: Text('Very clear'),
+                  onTap: () => Navigator.of(context).pop('Very clear'),
+                ),
+                ListTile(
+                  title: Text('Clear'),
+                  onTap: () => Navigator.of(context).pop('Clear'),
+                ),
+                ListTile(
+                  title: Text('Moderate'),
+                  onTap: () => Navigator.of(context).pop('Moderate'),
+                ),
+                ListTile(
+                  title: Text('Full'),
+                  onTap: () => Navigator.of(context).pop('Full'),
+                ),
+                ListTile(
+                  title: Text('Very Full'),
+                  onTap: () => Navigator.of(context).pop('Very Full'),
+                ),
+              ],
+            ),
+          );
+        },
+      ).then((value) {
+        if (value != null) {
+          int number = 0;
+          if (value == "Very clear") {
+            number = 1;
+          } else if (value == "Clear") {
+            number = 2;
+          } else if (value == "Moderate") {
+            number = 3;
+          } else if (value == "Full") {
+            number = 4;
+          } else if (value == "Very Full") {
+            number = 5;
+          }
+          ApiHandler().postUserReport(lon, lat, number, "1");
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('Parking status: $value')),
+          );
+        }
+      });
+    }
 
     void _showModalSheet() {
       showModalBottomSheet(
@@ -197,22 +254,21 @@ class _MapScreenState extends State<MapScreen> {
       return polygons;
     }
 
-    Set<Polygon> polygonsFromBikeTracks(List<BikeTrack> bikeTracks) {
+    Set<Polyline> pollinesFromBikeTracks(List<BikeTrack> bikeTracks) {
       int con = 0;
-      Set<Polygon> polygons = {};
+      Set<Polyline> polyline = {};
       for (BikeTrack biketrack in bikeTracks) {
         String id = (con++).toString() + biketrack.name;
         List<LatLng> points = [];
         for (List<double> point in biketrack.geometry.coordinates) {
           points.add(LatLng(point[1], point[0]));
         }
-        polygons.add(Polygon(
-          polygonId: PolygonId(id),
+        polyline.add(Polyline(
+          polylineId: PolylineId(id),
           points: points,
-          strokeWidth: 2,
-          strokeColor: (id == _idSelected) ? Colors.white : Colors.green,
-          fillColor: (id == _idSelected) ? Colors.white.withOpacity(0.15) : Colors.green.withOpacity(0.15),
           consumeTapEvents: true,
+          width: 2,
+          color: Colors.green,
           onTap: () {
             setState(() {
               polygonSelected = true;
@@ -224,7 +280,7 @@ class _MapScreenState extends State<MapScreen> {
 
         ));
       }
-      return polygons;
+      return polyline;
     }
 
     void _onMapCreated(GoogleMapController controller) {
@@ -260,12 +316,26 @@ class _MapScreenState extends State<MapScreen> {
             ),
             ListTile(
               leading: Icon(Icons.local_parking),
+              title: Text('Parcări aproape de mine'),
+              onTap: () {
+                Navigator.pop(context);
+                ApiHandler().getParkingSpaces(lon, lat, 0.004).then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                    all_polylines = {};
+                  });
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.local_parking),
               title: Text('Toate Parcările'),
               onTap: () {
                 Navigator.pop(context);
                 ApiHandler().getAllParkingSpace().then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polylines = {};
                   });
                 });
               },
@@ -277,8 +347,8 @@ class _MapScreenState extends State<MapScreen> {
                 Navigator.pop(context);
                 ApiHandler().getAllBikeTracks().then((value) {
                   setState(() {
-                    //all_polygons = polygonsFromParking(value);
-                    all_polygons = polygonsFromBikeTracks(value);
+                    all_polygons = {};
+                    all_polylines = pollinesFromBikeTracks(value);
                   });
                 });
               },
@@ -291,6 +361,7 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpacesFromZone('Zona Albastra').then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polygons = {};
                   });
                 });
               },
@@ -303,6 +374,7 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpacesFromZone('Zona Galbena').then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polygons = {};
                   });
                 });
               },
@@ -315,6 +387,7 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpacesFromZone('Zona Rosie').then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polygons = {};
                   });
                 });
               },
@@ -327,6 +400,7 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpacesFromZone('Zona Verde').then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polygons = {};
                   });
                 });
               },
@@ -339,6 +413,7 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpacesFromZone('Zona Verde Progresiv').then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                    all_polygons = {};
                   });
                 });
               },
@@ -358,7 +433,12 @@ class _MapScreenState extends State<MapScreen> {
                   target: _center,
                   zoom: 11.0,
                 ),
+                compassEnabled: false,
+                myLocationEnabled: true,
+                myLocationButtonEnabled: true,
                 polygons: all_polygons,
+                polylines: all_polylines,
+                zoomControlsEnabled: false,
               );
           } else if (snapshot.hasError) {
             child =
@@ -378,6 +458,12 @@ class _MapScreenState extends State<MapScreen> {
               child: child
           );
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.data_exploration),
+          onPressed: () {
+              showParkingStatusDialog(context);
+          }
       ),
     );
   }
