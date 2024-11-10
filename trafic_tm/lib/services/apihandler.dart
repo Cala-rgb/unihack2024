@@ -34,5 +34,16 @@ class ApiHandler {
     return parkingSpaces;
   }
 
+  Future<List<BikeTrack>> getAllBikeTracks() async {
+    List<BikeTrack> bikeTracks = [];
+    var response = await http.get(Uri.parse(url + "/api/bikeTracks"));
+    print(response.body);
+    Iterable l = json.decode(response.body);
+    print('testest');
+    //print(l);
+    bikeTracks = List<BikeTrack>.from(l.map((model)=> BikeTrack.fromJson(model)));
+    return bikeTracks;
+  }
+
   ApiHandler._internal();
 }

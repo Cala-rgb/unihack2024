@@ -9,9 +9,11 @@ class BikeTrack {
 
   // Factory constructor to create an instance from JSON
   factory BikeTrack.fromJson(Map<String, dynamic> json) {
+    print('plm');
+    print(json['geometry']['coordinates']);
     return BikeTrack(
       name: json['name'] ?? "unnamed",
-      geometry: Geometry.fromJson(json['geometry']),
+      geometry: Geometry.fromJson(json['geometry']['coordinates']),
     );
   }
 
@@ -35,9 +37,9 @@ class Geometry {
 
   // Factory constructor to create an instance from JSON
   factory Geometry.fromJson(Map<String, dynamic> json) {
+    print('${json['type'][0]}');
     return Geometry(
-      type: json['type'] ?? "LineString",
-      coordinates: (json['coordinates'] as List)
+      coordinates: (json['type'][0] as List)
           .map((coord) => List<double>.from(coord))
           .toList(),
     );

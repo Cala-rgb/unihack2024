@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:trafic_tm/models/biketrackModel.dart';
 import 'package:trafic_tm/services/apihandler.dart';
 import 'package:trafic_tm/shared/customtext.dart';
 import 'package:geolocator/geolocator.dart';
@@ -28,7 +29,6 @@ class _MapScreenState extends State<MapScreen> {
   Future<Position> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
-    print('test100000000000000000000');
 
     // Test if location services are enabled.
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
@@ -60,13 +60,10 @@ class _MapScreenState extends State<MapScreen> {
 
     // When we reach here, permissions are granted and we can
     // continue accessing the position of the device.
-    print('2222222222222222222222222222222222222222');
-    print(await Geolocator.getCurrentPosition());
     dynamic result = await Geolocator.getCurrentPosition();
     lat = result.latitude;
     lon = result.longitude;
     _center = LatLng(lat, lon);
-    print("test ${lat} ${lon}");
 
     return result;
   }
@@ -160,7 +157,6 @@ class _MapScreenState extends State<MapScreen> {
     Set<Polygon> polygonsFromParking(List<Parking> parkingSpaces) {
       int con = 0;
       Set<Polygon> polygons = {};
-      print(parkingSpaces.length);
       for (Parking parking in parkingSpaces) {
         String id = (con++).toString() + parking.name;
         List<LatLng> points = [];
@@ -201,13 +197,39 @@ class _MapScreenState extends State<MapScreen> {
       return polygons;
     }
 
+    Set<Polygon> polygonsFromBikeTracks(List<BikeTrack> bikeTracks) {
+      int con = 0;
+      Set<Polygon> polygons = {};
+      for (BikeTrack biketrack in bikeTracks) {
+        String id = (con++).toString() + biketrack.name;
+        List<LatLng> points = [];
+        for (List<double> point in biketrack.geometry.coordinates) {
+          points.add(LatLng(point[1], point[0]));
+        }
+        polygons.add(Polygon(
+          polygonId: PolygonId(id),
+          points: points,
+          strokeWidth: 2,
+          strokeColor: (id == _idSelected) ? Colors.white : Colors.green,
+          fillColor: (id == _idSelected) ? Colors.white.withOpacity(0.15) : Colors.green.withOpacity(0.15),
+          consumeTapEvents: true,
+          onTap: () {
+            setState(() {
+              polygonSelected = true;
+              _polygonName = biketrack.name;
+              _idSelected = id;
+              //_showModalSheet();
+            });
+          },
+
+        ));
+      }
+      return polygons;
+    }
+
     void _onMapCreated(GoogleMapController controller) {
       mapController = controller;
-      print('33333333333333333333333333333333');
-      print(_center);
       _center = LatLng(lat, lon);
-      print(_center);
-      print('43333333333333333333333333333333');
 
     }
 
@@ -244,6 +266,19 @@ class _MapScreenState extends State<MapScreen> {
                 ApiHandler().getAllParkingSpace().then((value) {
                   setState(() {
                     all_polygons = polygonsFromParking(value);
+                  });
+                });
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.directions_bike),
+              title: Text('Piste Biciclete'),
+              onTap: () {
+                Navigator.pop(context);
+                ApiHandler().getAllBikeTracks().then((value) {
+                  setState(() {
+                    //all_polygons = polygonsFromParking(value);
+                    all_polygons = polygonsFromBikeTracks(value);
                   });
                 });
               },
