@@ -27,6 +27,14 @@ app.get('/api/get/parkingSpacesByZone', async (req, res) => {
     res.status(200).send(result);
 });
 
+app.get('/api/get/parkingSpacesAll', async (req, res) => {
+    const result = await handler.getParkingSpacesAll();
+    if (result.length === 0) {
+        res.status(404).send("No parking spaces found");
+    }
+    res.status(200).send(result);
+});
+
 app.get('/api/bikeTracks', async (req, res) =>{
     const result = await handler.getAllBikeTracks();
     if(result.length == 0){
