@@ -1,0 +1,3755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Infrastructura velo Timisoara (2018)</name>
+    <description/>
+    <Style id="line-04AA48-3000-normal">
+      <LineStyle>
+        <color>ff48aa04</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-04AA48-3000-highlight">
+      <LineStyle>
+        <color>ff48aa04</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-04AA48-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-04AA48-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-04AA48-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-98CA3C-3000-normal">
+      <LineStyle>
+        <color>ff3cca98</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-98CA3C-3000-highlight">
+      <LineStyle>
+        <color>ff3cca98</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-98CA3C-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-98CA3C-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-98CA3C-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A0A0A0-3000-normal">
+      <LineStyle>
+        <color>ffa0a0a0</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A0A0A0-3000-highlight">
+      <LineStyle>
+        <color>ffa0a0a0</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A0A0A0-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A0A0A0-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A0A0A0-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-ED2224-3000-normal">
+      <LineStyle>
+        <color>ff2422ed</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-ED2224-3000-highlight">
+      <LineStyle>
+        <color>ff2422ed</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-ED2224-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-ED2224-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-ED2224-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F5EB1E-3000-normal">
+      <LineStyle>
+        <color>ff1eebf5</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F5EB1E-3000-highlight">
+      <LineStyle>
+        <color>ff1eebf5</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F5EB1E-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F5EB1E-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F5EB1E-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F6871F-3000-normal">
+      <LineStyle>
+        <color>ff1f87f6</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F6871F-3000-highlight">
+      <LineStyle>
+        <color>ff1f87f6</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F6871F-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F6871F-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F6871F-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Calitate foarte buna</name>
+      <Placemark>
+        <name>Pista 6 - segment 1</name>
+        <description><![CDATA[Punctaj total: 87.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 63.75 / 65.0<br>Obstacole / observații: 18.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=6-dus]]></description>
+        <styleUrl>#line-04AA48-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.245938,45.740547,0
+            21.245901,45.740476,0
+            21.245906,45.740263,0
+            21.24589,45.740053,0
+            21.245815,45.739814,0
+            21.245719,45.739641,0
+            21.245493,45.73939,0
+            21.245322,45.739274,0
+            21.244892,45.739114,0
+            21.244656,45.739057,0
+            21.244308,45.739035,0
+            21.243991,45.739068,0
+            21.243653,45.739155,0
+            21.243315,45.739334,0
+            21.242983,45.739578,0
+            21.242827,45.739757,0
+            21.242629,45.740184,0
+            21.242516,45.740581,0
+            21.242554,45.740956,0
+            21.242763,45.74133,0
+            21.242977,45.74154,0
+            21.243181,45.741678,0
+            21.243433,45.741783,0
+            21.243814,45.741858,0
+            21.244082,45.741888,0
+            21.244388,45.741865,0
+            21.244807,45.741742,0
+            21.245064,45.741633,0
+            21.245311,45.741461,0
+            21.245542,45.741225,0
+            21.245681,45.741034,0
+            21.245837,45.740922,0
+            21.245955,45.740592,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 78 - segment 1</name>
+        <description><![CDATA[Punctaj total: 82.5<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 61.25 / 65.0<br>Obstacole / observații: 18.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=78-dus]]></description>
+        <styleUrl>#line-04AA48-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.202916,45.725993,0
+            21.201478,45.726544,0
+            21.201414,45.72675,0
+            21.201226,45.726862,0
+            21.20091,45.72694,0
+            21.200652,45.726869,0
+            21.20047,45.726678,0
+            21.200454,45.726484,0
+            21.200561,45.726289,0
+            21.200813,45.726169,0
+            21.201274,45.726259,0
+            21.202701,45.725716,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 91 - segment 1</name>
+        <description><![CDATA[Punctaj total: 81.25<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 58.75 / 65.0<br>Obstacole / observații: 18.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=91-dus]]></description>
+        <styleUrl>#line-04AA48-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.226404,45.768181,0
+            21.227573,45.768088,0
+            21.22863,45.767994,0
+            21.228758,45.767979,0
+            21.228976,45.767953,0
+            21.229054,45.767921,0
+            21.22918,45.767895,0
+            21.229477,45.767854,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Calitate buna</name>
+      <Placemark>
+        <name>Pista 5 - segment 1</name>
+        <description><![CDATA[Punctaj total: 68.75<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=5-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.24994,45.737369,0
+            21.250241,45.737769,0
+            21.250144,45.737938,0
+            21.249916,45.739409,0
+            21.249602,45.740873,0
+            21.248492,45.740673,0
+            21.248414,45.740678,0
+            21.24835,45.740712,0
+            21.247139,45.743049,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 5 - segment 2</name>
+        <description><![CDATA[Punctaj total: 70.0<br><br>Conectivitate: 12.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=5-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.249678,45.740877,0
+            21.25008,45.738949,0
+            21.250246,45.737938,0
+            21.250386,45.737721,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 9 - segment 1</name>
+        <description><![CDATA[Punctaj total: 60.0<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=9-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.226101,45.742221,0
+            21.226157,45.742191,0
+            21.226164,45.742124,0
+            21.226267,45.741788,0
+            21.225838,45.741281,0
+            21.225776,45.741229,0
+            21.225594,45.741238,0
+            21.225535,45.741236,0
+            21.225465,45.741206,0
+            21.225315,45.741259,0
+            21.225076,45.741272,0
+            21.225023,45.741336,0
+            21.225058,45.74139,0
+            21.225039,45.741661,0
+            21.225066,45.741721,0
+            21.225154,45.741785,0
+            21.225784,45.742036,0
+            21.225885,45.742105,0
+            21.225894,45.742203,0
+            21.226122,45.742219,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 11 - segment 1</name>
+        <description><![CDATA[Punctaj total: 60.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=11-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232226,45.764568,0
+            21.232871,45.763803,0
+            21.232973,45.763582,0
+            21.232973,45.763201,0
+            21.232887,45.763193,0
+            21.232871,45.763103,0
+            21.232935,45.763103,0
+            21.232613,45.76056,0
+            21.232487,45.75912,0
+            21.232408,45.758831,0
+            21.232315,45.758712,0
+            21.232168,45.758698,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 11 - segment 2</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=11-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232324,45.764606,0
+            21.232962,45.763874,0
+            21.233102,45.763586,0
+            21.233096,45.763216,0
+            21.233203,45.763223,0
+            21.233187,45.763133,0
+            21.233096,45.763122,0
+            21.232946,45.761932,0
+            21.232796,45.760626,0
+            21.232635,45.759148,0
+            21.232565,45.758803,0
+            21.232581,45.758579,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 13 - segment 1</name>
+        <description><![CDATA[Punctaj total: 78.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 53.75 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=13-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224982,45.755328,0
+            21.226498,45.755248,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 13 - segment 2</name>
+        <description><![CDATA[Punctaj total: 78.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 53.75 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=13-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224982,45.755343,0
+            21.226482,45.755261,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 15 - segment 2</name>
+        <description><![CDATA[Punctaj total: 60.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=15-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.21593,45.751643,0
+            21.216182,45.751692,0
+            21.21747,45.751969,0
+            21.217577,45.752029,0
+            21.221058,45.752878,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 18 - segment 1</name>
+        <description><![CDATA[Punctaj total: 70.0<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 53.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=18-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.187869,45.76502,0
+            21.188952,45.765281,0
+            21.189124,45.765278,0
+            21.190605,45.76554,0
+            21.192992,45.766019,0
+            21.195293,45.766535,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 18 - segment 2</name>
+        <description><![CDATA[Punctaj total: 66.25<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 55.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=18-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.187842,45.765117,0
+            21.188904,45.765356,0
+            21.189054,45.765416,0
+            21.191157,45.765835,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 26 - segment 1</name>
+        <description><![CDATA[Punctaj total: 72.5<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 45.0 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=26-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.220285,45.768739,0
+            21.220485,45.768557,0
+            21.220806,45.768249,0
+            21.220919,45.768208,0
+            21.224261,45.764967,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 26 - segment 2</name>
+        <description><![CDATA[Punctaj total: 68.75<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=26-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224234,45.764946,0
+            21.220885,45.768186,0
+            21.220788,45.768228,0
+            21.220251,45.76873,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 44 - segment 1</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 45.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=44-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232608,45.753189,0
+            21.233354,45.754798,0
+            21.233716,45.7555,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 44 - segment 2</name>
+        <description><![CDATA[Punctaj total: 65.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=44-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.233281,45.755197,0
+            21.232993,45.754546,0
+            21.232715,45.753984,0
+            21.23238,45.753655,0
+            21.231988,45.75338,0
+            21.231736,45.75335,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 45 - segment 1</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=45-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.228673,45.75352,0
+            21.22921,45.754913,0
+            21.229529,45.755212,0
+            21.229625,45.755817,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 45 - segment 2</name>
+        <description><![CDATA[Punctaj total: 66.25<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=45-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.229633,45.755818,0
+            21.229537,45.75521,0
+            21.229217,45.754907,0
+            21.228687,45.753517,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 46 - segment 1</name>
+        <description><![CDATA[Punctaj total: 65.0<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 37.5 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=46-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.228764,45.753501,0
+            21.229537,45.753369,0
+            21.230215,45.753298,0
+            21.230875,45.753271,0
+            21.231311,45.753281,0
+            21.231736,45.75335,0
+            21.231865,45.753058,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 51 - segment 1</name>
+        <description><![CDATA[Punctaj total: 67.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 45.0 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=51-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225986,45.757659,0
+            21.225938,45.757321,0
+            21.22589,45.7569,0
+            21.225794,45.756084,0
+            21.225684,45.755325,0
+            21.225534,45.754104,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 51 - segment 2</name>
+        <description><![CDATA[Punctaj total: 70.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 47.5 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=51-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225986,45.757659,0
+            21.226024,45.757676,0
+            21.225568,45.754105,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 52 - segment 1</name>
+        <description><![CDATA[Punctaj total: 60.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=52-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224811,45.75787,0
+            21.225457,45.758354,0
+            21.225709,45.758485,0
+            21.225779,45.758491,0
+            21.226001,45.758599,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 52 - segment 2</name>
+        <description><![CDATA[Punctaj total: 71.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=52-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225079,45.757735,0
+            21.22515,45.75779,0
+            21.225485,45.758123,0
+            21.225835,45.758375,0
+            21.225868,45.758424,0
+            21.226041,45.758504,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 7</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.174077,45.734958,0
+            21.185692,45.738969,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 8</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.186775,45.739331,0
+            21.187045,45.739403,0
+            21.187297,45.739508,0
+            21.187657,45.739608,0
+            21.188145,45.739718,0
+            21.18871,45.739945,0
+            21.189284,45.740085,0
+            21.19033,45.740446,0
+            21.191342,45.740842,0
+            21.193968,45.741686,0
+            21.194279,45.741809,0
+            21.194535,45.741842,0
+            21.194734,45.741809,0
+            21.194907,45.741712,0
+            21.195044,45.741682,0
+            21.195403,45.741752,0
+            21.195655,45.741882,0
+            21.195631,45.742171,0
+            21.195758,45.742338,0
+            21.196489,45.742629,0
+            21.196578,45.742557,0
+            21.196997,45.742707,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 9</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.186764,45.739343,0
+            21.187157,45.739463,0
+            21.187297,45.73952,0
+            21.187494,45.739574,0
+            21.188413,45.739853,0
+            21.188679,45.739956,0
+            21.189666,45.7403,0
+            21.190685,45.740611,0
+            21.19106,45.740764,0
+            21.191334,45.740869,0
+            21.192716,45.741313,0
+            21.193975,45.741707,0
+            21.19428,45.741838,0
+            21.194551,45.741889,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 10</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.196945,45.74284,0
+            21.197644,45.743087,0
+            21.197717,45.74307,0
+            21.19788,45.743133,0
+            21.197895,45.743176,0
+            21.199461,45.743748,0
+            21.19989,45.743772,0
+            21.200657,45.743993,0
+            21.200939,45.744246,0
+            21.203947,45.745263,0
+            21.204207,45.745282,0
+            21.204246,45.745291,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 11</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.204364,45.745334,0
+            21.205148,45.745661,0
+            21.205389,45.745732,0
+            21.206022,45.745931,0
+            21.206194,45.745972,0
+            21.206526,45.746058,0
+            21.207095,45.746242,0
+            21.207508,45.74638,0
+            21.207696,45.746444,0
+            21.209651,45.747112,0
+            21.209723,45.747001,0
+            21.210077,45.747119,0
+            21.209984,45.747234,0
+            21.212545,45.748113,0
+            21.213554,45.748263,0
+            21.21482,45.74865,0
+            21.214962,45.748695,0
+            21.216922,45.749315,0
+            21.217185,45.749405,0
+            21.217459,45.749472,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 12</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.218218,45.74972,0
+            21.21829,45.749742,0
+            21.21844,45.749732,0
+            21.218703,45.749663,0
+            21.219135,45.749558,0
+            21.21958,45.749476,0
+            21.219685,45.749478,0
+            21.219943,45.749725,0
+            21.220026,45.749751,0
+            21.220286,45.749717,0
+            21.220602,45.749661,0
+            21.220763,45.749607,0
+            21.221192,45.749472,0
+            21.221493,45.749397,0
+            21.222625,45.749086,0
+            21.223311,45.748877,0
+            21.224164,45.748675,0
+            21.224889,45.748559,0
+            21.225377,45.748518,0
+            21.225547,45.748495,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 13</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.231091,45.748765,0
+            21.231861,45.749001,0
+            21.233708,45.749588,0
+            21.234472,45.749865,0
+            21.23474,45.750022,0
+            21.235068,45.750161,0
+            21.235183,45.750135,0
+            21.235443,45.750251,0
+            21.235432,45.750331,0
+            21.236213,45.750767,0
+            21.237055,45.75131,0
+            21.237774,45.751894,0
+            21.23904,45.753174,0
+            21.239598,45.753818,0
+            21.239872,45.754134,0
+            21.239982,45.754216,0
+            21.24007,45.754254,0
+            21.240169,45.754289,0
+            21.240194,45.754295,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 14</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240325,45.754488,0
+            21.240401,45.754632,0
+            21.240698,45.755149,0
+            21.241237,45.756081,0
+            21.241403,45.756116,0
+            21.241446,45.756193,0
+            21.24132,45.756184,0
+            21.241424,45.756365,0
+            21.241501,45.756501,0
+            21.241564,45.756613,0
+            21.241664,45.756738,0
+            21.241755,45.756846,0
+            21.241802,45.756906,0
+            21.241903,45.757042,0
+            21.242022,45.75719,0
+            21.242178,45.757358,0
+            21.242418,45.757591,0
+            21.242552,45.757705,0
+            21.242828,45.757945,0
+            21.243046,45.758111,0
+            21.243431,45.758354,0
+            21.243664,45.75849,0
+            21.243942,45.758638,0
+            21.244453,45.758885,0
+            21.24474,45.759006,0
+            21.244947,45.759084,0
+            21.245391,45.759247,0
+            21.245549,45.759303,0
+            21.24602,45.75943,0
+            21.246502,45.759563,0
+            21.248119,45.759998,0
+            21.248236,45.760008,0
+            21.248518,45.759993,0
+            21.248665,45.759993,0
+            21.248862,45.760026,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 15</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.263948,45.757885,0
+            21.263896,45.758006,0
+            21.263842,45.758062,0
+            21.263735,45.758105,0
+            21.262866,45.758369,0
+            21.262769,45.758438,0
+            21.262751,45.758575,0
+            21.2627,45.758708,0
+            21.262466,45.758768,0
+            21.262152,45.758738,0
+            21.261777,45.758715,0
+            21.261503,45.758781,0
+            21.26142,45.758936,0
+            21.26141,45.759046,0
+            21.261318,45.75909,0
+            21.261122,45.759125,0
+            21.260951,45.759084,0
+            21.260779,45.759067,0
+            21.260586,45.759062,0
+            21.260444,45.759105,0
+            21.260422,45.759196,0
+            21.2603,45.75929,0
+            21.260152,45.759319,0
+            21.260007,45.759294,0
+            21.259865,45.759283,0
+            21.259572,45.75938,0
+            21.259513,45.759481,0
+            21.259409,45.759578,0
+            21.259159,45.759576,0
+            21.258966,45.759593,0
+            21.258737,45.759744,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 56 - segment 1</name>
+        <description><![CDATA[Punctaj total: 67.5<br><br>Conectivitate: 12.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=56-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232226,45.764568,0
+            21.23217,45.764613,0
+            21.232053,45.764584,0
+            21.231966,45.764588,0
+            21.231844,45.764608,0
+            21.231733,45.764668,0
+            21.231666,45.76475,0
+            21.231487,45.764771,0
+            21.231483,45.764925,0
+            21.231695,45.764941,0
+            21.231738,45.764978,0
+            21.231641,45.765093,0
+            21.231806,45.765166,0
+            21.231919,45.765055,0
+            21.232027,45.765061,0
+            21.232164,45.765032,0
+            21.232282,45.764962,0
+            21.232431,45.764939,0
+            21.232464,45.764781,0
+            21.232324,45.764747,0
+            21.23225,45.764661,0
+            21.232324,45.764606,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 57 - segment 1</name>
+        <description><![CDATA[Punctaj total: 65.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=57-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.231641,45.765093,0
+            21.231554,45.765215,0
+            21.231409,45.765354,0
+            21.230811,45.765747,0
+            21.230688,45.765843,0
+            21.230671,45.765936,0
+            21.23062,45.766488,0
+            21.230537,45.766658,0
+            21.230379,45.766864,0
+            21.229572,45.7678,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 57 - segment 2</name>
+        <description><![CDATA[Punctaj total: 65.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=57-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.230028,45.767918,0
+            21.229982,45.767845,0
+            21.229993,45.767699,0
+            21.230749,45.766784,0
+            21.231044,45.766129,0
+            21.231219,45.765876,0
+            21.231806,45.765166,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 60 - segment 1</name>
+        <description><![CDATA[Punctaj total: 70.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 50.0 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=60-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.217108,45.75655,0
+            21.219948,45.756393,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 60 - segment 2</name>
+        <description><![CDATA[Punctaj total: 61.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=60-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.217134,45.756627,0
+            21.219964,45.75647,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 63 - segment 1</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 12.5 / 15.0<br>Calitate Pistă: 36.25 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=63-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224867,45.755276,0
+            21.223263,45.75516,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 68 - segment 1</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 45.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=68-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22768,45.759823,0
+            21.227787,45.759853,0
+            21.227825,45.759795,0
+            21.227902,45.759803,0
+            21.227973,45.759803,0
+            21.22804,45.759794,0
+            21.228122,45.759772,0
+            21.228199,45.759747,0
+            21.228254,45.759718,0
+            21.228295,45.759685,0
+            21.228337,45.759643,0
+            21.228363,45.759603,0
+            21.228382,45.759562,0
+            21.228392,45.759519,0
+            21.229149,45.759459,0
+            21.229137,45.759385,0
+            21.228487,45.759436,0
+            21.228377,45.759441,0
+            21.228357,45.759387,0
+            21.228314,45.759334,0
+            21.228236,45.75927,0
+            21.22819,45.759242,0
+            21.228136,45.75922,0
+            21.22802,45.759189,0
+            21.227963,45.759184,0
+            21.227875,45.759191,0
+            21.227806,45.7592,0
+            21.227723,45.759231,0
+            21.227641,45.759271,0
+            21.227596,45.759307,0
+            21.227535,45.759284,0
+            21.227446,45.759367,0
+            21.227513,45.759406,0
+            21.227488,45.75946,0
+            21.22749,45.759547,0
+            21.227527,45.759623,0
+            21.227601,45.7597,0
+            21.227717,45.759764,0
+            21.22768,45.759823,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 71 - segment 1</name>
+        <description><![CDATA[Punctaj total: 62.5<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=71-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.26531,45.730432,0
+            21.266699,45.730011,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 71 - segment 2</name>
+        <description><![CDATA[Punctaj total: 61.25<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=71-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.265307,45.730415,0
+            21.266693,45.729993,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 83 - segment 2</name>
+        <description><![CDATA[Punctaj total: 60.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=83-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240617,45.731498,0
+            21.240708,45.732108,0
+            21.240821,45.732217,0
+            21.24088,45.73276,0
+            21.240735,45.732846,0
+            21.24081,45.733419,0
+            21.24066,45.733617,0
+            21.240783,45.734314,0
+            21.240972,45.734345,0
+            21.241371,45.734443,0
+            21.242139,45.734796,0
+            21.2434,45.73543,0
+            21.243637,45.735566,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 86 - segment 1</name>
+        <description><![CDATA[Punctaj total: 66.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=86-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232464,45.764781,0
+            21.232672,45.764821,0
+            21.233037,45.764821,0
+            21.233852,45.764701,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 88 - segment 1</name>
+        <description><![CDATA[Punctaj total: 66.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=88-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.195828,45.768067,0
+            21.195663,45.767246,0
+            21.195642,45.766955,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 88 - segment 2</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 46.25 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=88-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.195642,45.766955,0
+            21.195697,45.767255,0
+            21.195863,45.768067,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 90 - segment 1</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 45.0 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=90-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.195642,45.766955,0
+            21.195422,45.766992,0
+            21.19531,45.766858,0
+            21.195034,45.766794,0
+            21.195007,45.766663,0
+            21.194848,45.766615,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 93 - segment 1</name>
+        <description><![CDATA[Punctaj total: 63.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=93-dus]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.21579,45.753131,0
+            21.215801,45.752899,0
+            21.216026,45.75218,0
+            21.216364,45.752096,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 93 - segment 2</name>
+        <description><![CDATA[Punctaj total: 61.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 42.5 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=93-intors]]></description>
+        <styleUrl>#line-98CA3C-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.215694,45.753558,0
+            21.215635,45.753251,0
+            21.215608,45.752944,0
+            21.215436,45.752832,0
+            21.214514,45.752716,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Calitate medie</name>
+      <Placemark>
+        <name>Pista 2 - segment 1</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=2-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.253696,45.735995,0
+            21.253261,45.735426,0
+            21.253218,45.735298,0
+            21.253288,45.734224,0
+            21.252998,45.731603,0
+            21.252928,45.730779,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 2 - segment 2</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=2-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.25361,45.736036,0
+            21.253164,45.735437,0
+            21.253122,45.735339,0
+            21.253191,45.734227,0
+            21.252896,45.731606,0
+            21.252837,45.73079,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 3 - segment 1</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=3-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.250257,45.737066,0
+            21.244654,45.737764,0
+            21.238648,45.738466,0
+            21.238342,45.738473,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 4 - segment 1</name>
+        <description><![CDATA[Punctaj total: 50.0<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=4-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.250198,45.737346,0
+            21.250944,45.737219,0
+            21.251469,45.737092,0
+            21.252805,45.736657,0
+            21.253508,45.736343,0
+            21.258572,45.73364,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 4 - segment 2</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=4-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.250257,45.737066,0
+            21.251244,45.736897,0
+            21.251893,45.736728,0
+            21.252612,45.736496,0
+            21.253132,45.736268,0
+            21.25361,45.736036,0
+            21.25833,45.733448,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 7 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=7-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.252051,45.750892,0
+            21.24832,45.749595,0
+            21.246944,45.749114,0
+            21.245504,45.748628,0
+            21.244136,45.74815,0
+            21.242988,45.747762,0
+            21.241947,45.74741,0
+            21.241175,45.747158,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 7 - segment 2</name>
+        <description><![CDATA[Punctaj total: 42.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=7-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.241152,45.747178,0
+            21.252036,45.750913,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 8 - segment 1</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=8-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240434,45.746777,0
+            21.23952,45.746459,0
+            21.2373,45.74569,0
+            21.236438,45.745405,0
+            21.236014,45.745285,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 8 - segment 2</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=8-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235949,45.745357,0
+            21.236382,45.745477,0
+            21.237327,45.745797,0
+            21.237734,45.745936,0
+            21.23814,45.74608,0
+            21.23853,45.746213,0
+            21.238926,45.746351,0
+            21.23971,45.746619,0
+            21.24029,45.746819,0
+            21.240369,45.746847,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 10 - segment 1</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 23.75 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=10-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225739,45.744619,0
+            21.225425,45.746859,0
+            21.225558,45.747685,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 10 - segment 4</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 23.75 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=10-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22575,45.74456,0
+            21.226101,45.742221,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 12 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 5.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=12-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216091,45.746706,0
+            21.215914,45.746605,0
+            21.215721,45.746567,0
+            21.214964,45.746294,0
+            21.213564,45.745807,0
+            21.211435,45.74513,0
+            21.211113,45.745029,0
+            21.209149,45.744407,0
+            21.209004,45.744422,0
+            21.208833,45.744344,0
+            21.208811,45.744228,0
+            21.208876,45.744175,0
+            21.208473,45.744082,0
+            21.206907,45.743565,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 12 - segment 2</name>
+        <description><![CDATA[Punctaj total: 47.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=12-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.206961,45.743512,0
+            21.208554,45.744037,0
+            21.208983,45.744123,0
+            21.209235,45.744194,0
+            21.209257,45.74428,0
+            21.209214,45.744355,0
+            21.211166,45.744965,0
+            21.211467,45.745062,0
+            21.213521,45.745717,0
+            21.215678,45.746485,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 14 - segment 1</name>
+        <description><![CDATA[Punctaj total: 43.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=14-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.206827,45.743678,0
+            21.206907,45.743565,0
+            21.208409,45.741487,0
+            21.209852,45.739334,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 14 - segment 2</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=14-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.209578,45.739282,0
+            21.209171,45.739855,0
+            21.206505,45.74358,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 15 - segment 1</name>
+        <description><![CDATA[Punctaj total: 55.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=15-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.221016,45.75295,0
+            21.21755,45.752107,0
+            21.217271,45.75207,0
+            21.216364,45.752096,0
+            21.216236,45.751879,0
+            21.21585,45.751819,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 16 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=16-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.21585,45.751819,0
+            21.21549,45.751752,0
+            21.215227,45.751842,0
+            21.214793,45.751632,0
+            21.213661,45.751434,0
+            21.213543,45.751374,0
+            21.209568,45.750777,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 16 - segment 2</name>
+        <description><![CDATA[Punctaj total: 50.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=16-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.209975,45.750762,0
+            21.210296,45.750808,0
+            21.213049,45.751209,0
+            21.213564,45.751284,0
+            21.213677,45.751273,0
+            21.214401,45.751385,0
+            21.21593,45.751643,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 17 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 38.75 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=17-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.203801,45.761576,0
+            21.200749,45.761359,0
+            21.197401,45.76109,0
+            21.1954,45.760914,0
+            21.194097,45.760809,0
+            21.192756,45.760704,0
+            21.191372,45.760633,0
+            21.190095,45.760555,0
+            21.188743,45.760458,0
+            21.18744,45.760394,0
+            21.186147,45.760304,0
+            21.184897,45.760214,0
+            21.182333,45.760057,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 17 - segment 2</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 38.75 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=17-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.182322,45.760132,0
+            21.183411,45.760196,0
+            21.184784,45.760293,0
+            21.187316,45.760458,0
+            21.189966,45.760626,0
+            21.191248,45.760701,0
+            21.192643,45.760776,0
+            21.195239,45.760982,0
+            21.200529,45.761419,0
+            21.203822,45.761644,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 19 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 37.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=19-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.195828,45.768067,0
+            21.202943,45.766075,0
+            21.205587,45.765371,0
+            21.20703,45.764997,0
+            21.207454,45.764885,0
+            21.208329,45.764656,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 19 - segment 2</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=19-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.208355,45.764739,0
+            21.205727,45.765412,0
+            21.203069,45.766116,0
+            21.195848,45.768137,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 20 - segment 1</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=20-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.230274,45.769704,0
+            21.230586,45.770457,0
+            21.230688,45.770588,0
+            21.23095,45.771209,0
+            21.231658,45.772922,0
+            21.23197,45.773663,0
+            21.232468,45.774833,0
+            21.232704,45.775383,0
+            21.232957,45.775953,0
+            21.233233,45.776647,0
+            21.233343,45.776892,0
+            21.233716,45.777732,0
+            21.234107,45.778666,0
+            21.234223,45.778954,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 21 - segment 2</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=21-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.211166,45.744965,0
+            21.21133,45.744804,0
+            21.212717,45.742985,0
+            21.212674,45.742927,0
+            21.212845,45.74276,0
+            21.212902,45.742747,0
+            21.212964,45.742668,0
+            21.214828,45.73998,0
+            21.21552,45.738996,0
+            21.215831,45.738548,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 22 - segment 1</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=22-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.209721,45.738733,0
+            21.209731,45.738587,0
+            21.208852,45.733823,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 23 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=23-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.208393,45.732204,0
+            21.208355,45.732097,0
+            21.208149,45.731764,0
+            21.20687,45.730168,0
+            21.20665,45.729918,0
+            21.206446,45.729708,0
+            21.205507,45.728921,0
+            21.20537,45.728774,0
+            21.205343,45.728708,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 23 - segment 2</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 36.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=23-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.205807,45.728513,0
+            21.206902,45.729858,0
+            21.207851,45.731065,0
+            21.208447,45.731803,0
+            21.208691,45.732168,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 24 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 5.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=24-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.204128,45.721057,0
+            21.204582,45.72031,0
+            21.205019,45.719494,0
+            21.20548,45.718679,0
+            21.205845,45.717991,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 24 - segment 2</name>
+        <description><![CDATA[Punctaj total: 43.75<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 3.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=24-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.206038,45.717863,0
+            21.205572,45.718682,0
+            21.20515,45.719464,0
+            21.204708,45.720278,0
+            21.204225,45.721089,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 25 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=25-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.204391,45.727229,0
+            21.204456,45.727113,0
+            21.20541,45.725431,0
+            21.206988,45.72269,0
+            21.207376,45.722005,0
+            21.208825,45.719505,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 27 - segment 2</name>
+        <description><![CDATA[Punctaj total: 43.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=27-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216048,45.767568,0
+            21.215265,45.767111,0
+            21.21314,45.765697,0
+            21.211553,45.764537,0
+            21.211038,45.764005,0
+            21.210555,45.76316,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 27 - segment 3</name>
+        <description><![CDATA[Punctaj total: 43.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=27-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216789,45.76803,0
+            21.217465,45.768339,0
+            21.218335,45.768618,0
+            21.219344,45.768769,0
+            21.220074,45.768921,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 28 - segment 1</name>
+        <description><![CDATA[Punctaj total: 50.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=28-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.218285,45.760188,0
+            21.217523,45.76051,0
+            21.2167,45.760834,0
+            21.216209,45.761019,0
+            21.215496,45.761285,0
+            21.213692,45.761968,0
+            21.212056,45.762609,0
+            21.211433,45.76286,0
+            21.211306,45.762901,0
+            21.210914,45.763036,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 28 - segment 2</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=28-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.212296,45.762321,0
+            21.212451,45.762265,0
+            21.214935,45.761298,0
+            21.216686,45.760628,0
+            21.217325,45.760377,0
+            21.21759,45.760272,0
+            21.218199,45.759992,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 29 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=29-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224325,45.764312,0
+            21.22388,45.764204,0
+            21.222965,45.764018,0
+            21.222641,45.763929,0
+            21.222273,45.763818,0
+            21.221917,45.763685,0
+            21.221437,45.763463,0
+            21.220656,45.76303,0
+            21.220248,45.762774,0
+            21.219865,45.762482,0
+            21.219513,45.762166,0
+            21.219122,45.76175,0
+            21.218913,45.761459,0
+            21.218736,45.76112,0
+            21.218285,45.760188,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 29 - segment 2</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=29-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.218542,45.76008,0
+            21.218765,45.760602,0
+            21.218977,45.761088,0
+            21.219205,45.761446,0
+            21.219503,45.761808,0
+            21.2199,45.7622,0
+            21.220474,45.762651,0
+            21.221426,45.763244,0
+            21.221726,45.763399,0
+            21.222056,45.763541,0
+            21.222469,45.763689,0
+            21.222737,45.763764,0
+            21.223024,45.763829,0
+            21.224207,45.764067,0
+            21.224419,45.764013,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 29 - segment 3</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=29-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224419,45.764013,0
+            21.224548,45.764144,0
+            21.22476,45.764189,0
+            21.225267,45.764275,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 30 - segment 1</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=30-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.223059,45.751911,0
+            21.22395,45.753103,0
+            21.22396,45.753172,0
+            21.223794,45.753503,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 30 - segment 2</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=30-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.222986,45.751948,0
+            21.223873,45.753133,0
+            21.223875,45.753152,0
+            21.223778,45.753346,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 31 - segment 2</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=31-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.223773,45.753591,0
+            21.224895,45.753853,0
+            21.225041,45.753938,0
+            21.225132,45.754038,0
+            21.224951,45.754523,0
+            21.224867,45.755276,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 32 - segment 1</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=32-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.221555,45.749951,0
+            21.221866,45.750122,0
+            21.222354,45.750387,0
+            21.223483,45.750951,0
+            21.224089,45.751198,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 32 - segment 2</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=32-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22505,45.751184,0
+            21.224207,45.751388,0
+            21.224089,45.751198,0
+            21.223744,45.751343,0
+            21.223561,45.751218,0
+            21.22277,45.750833,0
+            21.221713,45.750234,0
+            21.22145,45.750095,0
+            21.221257,45.74999,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 33 - segment 1</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=33-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235354,45.748471,0
+            21.235285,45.748117,0
+            21.235301,45.747994,0
+            21.235247,45.747779,0
+            21.235232,45.74735,0
+            21.23529,45.746843,0
+            21.235424,45.746444,0
+            21.235676,45.745732,0
+            21.235862,45.745338,0
+            21.236374,45.744434,0
+            21.236902,45.743683,0
+            21.237412,45.742953,0
+            21.237895,45.742306,0
+            21.238294,45.741734,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 33 - segment 4</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=33-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.238959,45.740811,0
+            21.239399,45.740205,0
+            21.239434,45.740079,0
+            21.24011,45.739132,0
+            21.240381,45.738754,0
+            21.240386,45.738608,0
+            21.240335,45.73855,0
+            21.240228,45.738521,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 33 - segment 2</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=33-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240883,45.73844,0
+            21.240412,45.739048,0
+            21.23958,45.740179,0
+            21.239473,45.74024,0
+            21.23941,45.740326,0
+            21.238911,45.741031,0
+            21.23873,45.741276,0
+            21.238798,45.741398,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 33 - segment 3</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=33-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.237977,45.742341,0
+            21.23751,45.742969,0
+            21.237039,45.743668,0
+            21.236394,45.744579,0
+            21.235993,45.745296,0
+            21.235947,45.745368,0
+            21.235849,45.745566,0
+            21.235706,45.745938,0
+            21.235623,45.746185,0
+            21.235399,45.746829,0
+            21.235337,45.747355,0
+            21.235348,45.747679,0
+            21.235408,45.747984,0
+            21.235403,45.748029,0
+            21.235479,45.748152,0
+            21.235529,45.748326,0
+            21.235613,45.748488,0
+            21.235836,45.748683,0
+            21.236166,45.748807,0
+            21.236548,45.749006,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 34 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=34-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224089,45.751198,0
+            21.224253,45.751224,0
+            21.224824,45.751084,0
+            21.224926,45.751035,0
+            21.225001,45.750947,0
+            21.225154,45.75053,0
+            21.225197,45.750481,0
+            21.225444,45.74976,0
+            21.225589,45.749116,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 34 - segment 2</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=34-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22505,45.751184,0
+            21.22508,45.751048,0
+            21.225162,45.751019,0
+            21.225242,45.750978,0
+            21.225295,45.750602,0
+            21.225292,45.750492,0
+            21.225538,45.749742,0
+            21.225669,45.749547,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 35 - segment 1</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=35-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.241604,45.754134,0
+            21.24361,45.754332,0
+            21.245794,45.754563,0
+            21.247041,45.754692,0
+            21.247712,45.754757,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 36 - segment 1</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=36-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22768,45.759823,0
+            21.225556,45.7635,0
+            21.225466,45.763553,0
+            21.224926,45.763704,0
+            21.224746,45.763796,0
+            21.224647,45.763912,0
+            21.224476,45.763996,0
+            21.224419,45.764013,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 36 - segment 2</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=36-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225267,45.764275,0
+            21.225331,45.764007,0
+            21.225373,45.763841,0
+            21.2254,45.763574,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 36 - segment 3</name>
+        <description><![CDATA[Punctaj total: 55.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=36-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225286,45.76427,0
+            21.225351,45.763985,0
+            21.225386,45.76384,0
+            21.225421,45.763565,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 37 - segment 1</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=37-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.224207,45.751388,0
+            21.223983,45.751456,0
+            21.223356,45.751764,0
+            21.223055,45.751913,0
+            21.222426,45.752233,0
+            21.222124,45.752399,0
+            21.221822,45.752593,0
+            21.221732,45.752668,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 38 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=38-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.234049,45.758006,0
+            21.237431,45.759178,0
+            21.237801,45.759307,0
+            21.240158,45.760113,0
+            21.241148,45.760448,0
+            21.245598,45.76196,0
+            21.247534,45.762467,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 38 - segment 2</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=38-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.247429,45.762648,0
+            21.245858,45.762266,0
+            21.245473,45.762158,0
+            21.245121,45.762035,0
+            21.243651,45.761545,0
+            21.242328,45.761092,0
+            21.238305,45.759683,0
+            21.236512,45.759052,0
+            21.236186,45.758942,0
+            21.234261,45.758304,0
+            21.233981,45.758216,0
+            21.233805,45.758186,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 39 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 36.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=39-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.220251,45.76873,0
+            21.220074,45.768921,0
+            21.219393,45.769594,0
+            21.219339,45.769714,0
+            21.218293,45.770713,0
+            21.217228,45.771753,0
+            21.217081,45.771852,0
+            21.216434,45.772453,0
+            21.215917,45.772949,0
+            21.215868,45.773067,0
+            21.214592,45.774296,0
+            21.214495,45.774329,0
+            21.214243,45.774556,0
+            21.213658,45.775123,0
+            21.211783,45.77696,0
+            21.21118,45.777487,0
+            21.211046,45.777594,0
+            21.210936,45.777633,0
+            21.210638,45.777844,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 39 - segment 2</name>
+        <description><![CDATA[Punctaj total: 50.0<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 38.75 / 65.0<br>Obstacole / observații: 3.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=39-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.210802,45.777982,0
+            21.211102,45.777732,0
+            21.211156,45.777663,0
+            21.211921,45.77701,0
+            21.212457,45.776514,0
+            21.212929,45.776071,0
+            21.213052,45.776015,0
+            21.21386,45.77528,0
+            21.21463,45.774494,0
+            21.214694,45.774423,0
+            21.21471,45.77435,0
+            21.216002,45.773112,0
+            21.216061,45.772996,0
+            21.216502,45.77257,0
+            21.216395,45.772515,0
+            21.217089,45.771864,0
+            21.21726,45.771753,0
+            21.218996,45.770072,0
+            21.219373,45.76971,0
+            21.219425,45.769601,0
+            21.219809,45.76922,0
+            21.220285,45.768739,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 40 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=40-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225558,45.747685,0
+            21.226125,45.747645,0
+            21.227183,45.747556,0
+            21.228586,45.74756,0
+            21.229172,45.747589,0
+            21.230025,45.747664,0
+            21.231079,45.747786,0
+            21.231524,45.747825,0
+            21.232951,45.748068,0
+            21.23378,45.74819,0
+            21.23525,45.748458,0
+            21.235354,45.748471,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 40 - segment 2</name>
+        <description><![CDATA[Punctaj total: 47.5<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 21.25 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=40-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235322,45.748984,0
+            21.23419,45.748639,0
+            21.23312,45.748396,0
+            21.232949,45.748344,0
+            21.232809,45.748276,0
+            21.231232,45.748031,0
+            21.229231,45.747823,0
+            21.228904,45.747802,0
+            21.228056,45.747776,0
+            21.226951,45.747802,0
+            21.226833,45.747851,0
+            21.225615,45.748012,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 41 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=41-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.233284,45.751778,0
+            21.232761,45.751542,0
+            21.231905,45.751231,0
+            21.231235,45.751037,0
+            21.230578,45.750885,0
+            21.23006,45.750793,0
+            21.229228,45.750719,0
+            21.228507,45.750696,0
+            21.228217,45.750704,0
+            21.227579,45.750724,0
+            21.227,45.750792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 42 - segment 1</name>
+        <description><![CDATA[Punctaj total: 55.0<br><br>Conectivitate: 12.5 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=42-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.231865,45.753058,0
+            21.232082,45.753002,0
+            21.232298,45.752886,0
+            21.232466,45.752777,0
+            21.23257,45.752624,0
+            21.233233,45.751843,0
+            21.2337,45.751316,0
+            21.234212,45.750773,0
+            21.234832,45.75005,0
+            21.235086,45.749807,0
+            21.235322,45.748984,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 42 - segment 2</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=42-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.234,45.751332,0
+            21.234351,45.750778,0
+            21.235226,45.749813,0
+            21.235317,45.749749,0
+            21.235644,45.749371,0
+            21.23588,45.749223,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 43 - segment 1</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=43-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.233233,45.751843,0
+            21.233501,45.751965,0
+            21.234134,45.752345,0
+            21.235062,45.752923,0
+            21.235516,45.753236,0
+            21.235808,45.753528,0
+            21.23647,45.754348,0
+            21.236669,45.754656,0
+            21.236787,45.755025,0
+            21.236843,45.755467,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 43 - segment 2</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=43-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.23694,45.755468,0
+            21.236889,45.755053,0
+            21.236843,45.754847,0
+            21.236757,45.754619,0
+            21.236604,45.754377,0
+            21.235904,45.7535,0
+            21.235599,45.753195,0
+            21.235186,45.752903,0
+            21.233531,45.751894,0
+            21.233284,45.751778,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 47 - segment 1</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=47-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.258722,45.747365,0
+            21.256946,45.746664,0
+            21.254656,45.745676,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 47 - segment 2</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=47-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.254631,45.745687,0
+            21.257014,45.746727,0
+            21.258695,45.747385,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 49 - segment 2</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=49-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.221343,45.774668,0
+            21.221729,45.773764,0
+            21.221823,45.773605,0
+            21.221884,45.773564,0
+            21.222504,45.7718,0
+            21.222475,45.771723,0
+            21.222542,45.771471,0
+            21.222697,45.770898,0
+            21.222998,45.770126,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 1</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.259145,45.760424,0
+            21.259114,45.760454,0
+            21.258735,45.76059,0
+            21.258685,45.7606,0
+            21.258635,45.760582,0
+            21.258469,45.760427,0
+            21.258426,45.760411,0
+            21.258367,45.760409,0
+            21.258332,45.760419,0
+            21.256879,45.761006,0
+            21.255404,45.761636,0
+            21.25491,45.761838,0
+            21.254613,45.761916,0
+            21.254361,45.761955,0
+            21.25413,45.761978,0
+            21.254009,45.761982,0
+            21.253784,45.761936,0
+            21.253576,45.761897,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 2</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.252374,45.761456,0
+            21.251961,45.761352,0
+            21.251449,45.761226,0
+            21.250894,45.761086,0
+            21.250034,45.760886,0
+            21.249164,45.760666,0
+            21.248588,45.760544,0
+            21.248549,45.760589,0
+            21.248473,45.760572,0
+            21.248502,45.760531,0
+            21.248466,45.76051,0
+            21.248009,45.760395,0
+            21.246737,45.76008,0
+            21.245382,45.759743,0
+            21.244477,45.759451,0
+            21.243579,45.759032,0
+            21.243058,45.758758,0
+            21.242645,45.758339,0
+            21.242114,45.757963,0
+            21.241648,45.757536,0
+            21.241173,45.756996,0
+            21.240778,45.756406,0
+            21.240593,45.756023,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 3</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240585,45.755985,0
+            21.240384,45.755627,0
+            21.240105,45.755203,0
+            21.239464,45.754342,0
+            21.23889,45.753732,0
+            21.237999,45.752845,0
+            21.236862,45.751767,0
+            21.235848,45.751078,0
+            21.234689,45.750445,0
+            21.234512,45.750356,0
+            21.233413,45.749891,0
+            21.232238,45.749506,0
+            21.230709,45.749038,0
+            21.229743,45.748768,0
+            21.22837,45.748574,0
+            21.227485,45.748645,0
+            21.225774,45.748847,0
+            21.2255,45.748877,0
+            21.225122,45.748931,0
+            21.224883,45.749079,0
+            21.224127,45.749161,0
+            21.222258,45.749676,0
+            21.221779,45.749675,0
+            21.2213,45.749809,0
+            21.221021,45.749895,0
+            21.218553,45.750412,0
+            21.218033,45.750505,0
+            21.217843,45.750571,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 4</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216862,45.750197,0
+            21.216611,45.750117,0
+            21.215648,45.74977,0
+            21.214656,45.749407,0
+            21.214476,45.74934,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 5</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.214342,45.749296,0
+            21.213717,45.749084,0
+            21.212634,45.748705,0
+            21.210684,45.748031,0
+            21.209638,45.747663,0
+            21.209589,45.74776,0
+            21.209321,45.747671,0
+            21.209392,45.747589,0
+            21.207331,45.746882,0
+            21.207148,45.746807,0
+            21.206982,45.746721,0
+            21.206899,45.746614,0
+            21.206655,45.74653,0
+            21.206389,45.746532,0
+            21.206108,45.746444,0
+            21.205901,45.746279,0
+            21.2057,45.746212,0
+            21.205472,45.746202,0
+            21.205088,45.746068,0
+            21.204866,45.745998,0
+            21.203372,45.745515,0
+            21.202052,45.745092,0
+            21.201526,45.744871,0
+            21.201339,45.744752,0
+            21.200776,45.744553,0
+            21.200475,45.744482,0
+            21.199888,45.744435,0
+            21.199571,45.744338,0
+            21.199367,45.744272,0
+            21.198807,45.744085,0
+            21.198179,45.743887,0
+            21.197369,45.743632,0
+            21.197144,45.743482,0
+            21.196758,45.743202,0
+            21.195921,45.74297,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 53 - segment 6</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=53-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.188464,45.740439,0
+            21.177291,45.736591,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 54 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=54-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225739,45.744619,0
+            21.22605,45.744625,0
+            21.226321,45.744613,0
+            21.228469,45.74443,0
+            21.22907,45.744422,0
+            21.229462,45.744439,0
+            21.229821,45.744484,0
+            21.232077,45.744791,0
+            21.233287,45.744946,0
+            21.234444,45.745106,0
+            21.235511,45.745269,0
+            21.235949,45.745357,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 54 - segment 2</name>
+        <description><![CDATA[Punctaj total: 47.5<br><br>Conectivitate: 12.5 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=54-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22575,45.74456,0
+            21.226011,45.744564,0
+            21.226861,45.744506,0
+            21.228453,45.744362,0
+            21.228538,45.744358,0
+            21.229172,45.744353,0
+            21.229532,45.744374,0
+            21.229863,45.744416,0
+            21.232102,45.744723,0
+            21.233312,45.744882,0
+            21.234472,45.745044,0
+            21.235574,45.745213,0
+            21.235993,45.745296,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 55 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=55-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.20908,45.733748,0
+            21.21335,45.733482,0
+            21.21476,45.733389,0
+            21.215302,45.733404,0
+            21.218907,45.733849,0
+            21.220702,45.734141,0
+            21.221903,45.734443,0
+            21.223494,45.734961,0
+            21.224797,45.735467,0
+            21.226289,45.736012,0
+            21.230135,45.737358,0
+            21.231597,45.737874,0
+            21.23275,45.738265,0
+            21.236612,45.739664,0
+            21.237732,45.740075,0
+            21.238305,45.740036,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 55 - segment 2</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 3.75 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 15.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=55-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.20908,45.733748,0
+            21.214763,45.733401,0
+            21.21531,45.733416,0
+            21.218873,45.733861,0
+            21.220698,45.734149,0
+            21.221911,45.734459,0
+            21.223505,45.734981,0
+            21.237729,45.740087,0
+            21.238308,45.740052,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 58 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 36.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=58-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.260267,45.732636,0
+            21.261289,45.732044,0
+            21.261777,45.731722,0
+            21.262059,45.731563,0
+            21.263424,45.73093,0
+            21.26462,45.73049,0
+            21.264958,45.730419,0
+            21.265071,45.730449,0
+            21.265248,45.730562,0
+            21.265382,45.73082,0
+            21.265717,45.73269,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 58 - segment 2</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 36.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=58-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.265737,45.732688,0
+            21.265398,45.730814,0
+            21.265262,45.730554,0
+            21.265079,45.730434,0
+            21.264962,45.730406,0
+            21.264605,45.730471,0
+            21.263414,45.73092,0
+            21.262052,45.731555,0
+            21.261747,45.73173,0
+            21.261187,45.73208,0
+            21.260304,45.73259,0
+            21.260253,45.732626,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 59 - segment 1</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=59-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.218199,45.759992,0
+            21.21795,45.75934,0
+            21.21792,45.759211,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 59 - segment 2</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=59-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.217901,45.759151,0
+            21.217826,45.75888,0
+            21.217826,45.7588,0
+            21.217759,45.758609,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 59 - segment 3</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=59-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.217735,45.758552,0
+            21.217319,45.757542,0
+            21.217234,45.757445,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 59 - segment 4</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=59-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.217193,45.757392,0
+            21.216882,45.756646,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 61 - segment 1</name>
+        <description><![CDATA[Punctaj total: 51.25<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=61-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.222019,45.756393,0
+            21.222163,45.757712,0
+            21.222236,45.758,0
+            21.222493,45.75844,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 62 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=62-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22222,45.757506,0
+            21.223435,45.757295,0
+            21.223534,45.75728,0
+            21.224226,45.757173,0
+            21.224366,45.757164,0
+            21.224741,45.757804,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 64 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=64-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.223566,45.757162,0
+            21.223256,45.756296,0
+            21.223226,45.755714,0
+            21.223252,45.755218,0
+            21.223298,45.754832,0
+            21.223446,45.754282,0
+            21.223773,45.753591,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 65 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=65-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.243031,45.743037,0
+            21.24329,45.74313,0
+            21.243634,45.742751,0
+            21.244957,45.742846,0
+            21.246057,45.742977,0
+            21.24677,45.743119,0
+            21.247049,45.743265,0
+            21.247376,45.743277,0
+            21.248567,45.743666,0
+            21.250477,45.744314,0
+            21.251373,45.744609,0
+            21.254312,45.745534,0
+            21.254656,45.745676,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 65 - segment 2</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=65-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.243787,45.742681,0
+            21.245869,45.742857,0
+            21.246802,45.743041,0
+            21.247139,45.743049,0
+            21.247231,45.743056,0
+            21.247478,45.743209,0
+            21.250233,45.744117,0
+            21.254683,45.745594,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 66 - segment 1</name>
+        <description><![CDATA[Punctaj total: 53.75<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=66-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.207562,45.746313,0
+            21.20783,45.745929,0
+            21.20779,45.745822,0
+            21.208833,45.744344,0
+            21.208811,45.744228,0
+            21.208983,45.744123,0
+            21.210635,45.741725,0
+            21.210743,45.741657,0
+            21.211166,45.741023,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 66 - segment 2</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=66-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.207653,45.746339,0
+            21.207902,45.745972,0
+            21.208074,45.745925,0
+            21.209111,45.744415,0
+            21.209214,45.744355,0
+            21.209257,45.74428,0
+            21.2092,45.744207,0
+            21.210306,45.742609,0
+            21.210903,45.741806,0
+            21.210911,45.74173,0
+            21.211188,45.74134,0
+            21.21141,45.741319,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 67 - segment 2</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=67-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.209589,45.74776,0
+            21.208645,45.749214,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 69 - segment 1</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=69-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.260194,45.733355,0
+            21.261887,45.734077,0
+            21.262516,45.734419,0
+            21.263087,45.734642,0
+            21.263507,45.734885,0
+            21.263602,45.734948,0
+            21.26574,45.734838,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 70 - segment 1</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 11.25 / 15.0<br>Calitate Pistă: 28.75 / 65.0<br>Obstacole / observații: 17.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=70-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240309,45.747036,0
+            21.240143,45.74735,0
+            21.239939,45.747583,0
+            21.239682,45.747841,0
+            21.239601,45.747908,0
+            21.23937,45.74808,0
+            21.239129,45.748245,0
+            21.239065,45.748286,0
+            21.238796,45.74845,0
+            21.238571,45.748569,0
+            21.238485,45.748611,0
+            21.238196,45.74873,0
+            21.237879,45.748839,0
+            21.237734,45.748884,0
+            21.237326,45.748985,0
+            21.237015,45.749034,0
+            21.236814,45.749122,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 72 - segment 1</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=72-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216179,45.746736,0
+            21.216372,45.746781,0
+            21.216464,45.746833,0
+            21.217137,45.747494,0
+            21.21759,45.747947,0
+            21.217858,45.748149,0
+            21.218175,45.748345,0
+            21.219892,45.749264,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 73 - segment 2</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=73-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.222981,45.740536,0
+            21.225076,45.741272,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 73 - segment 4</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=73-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216118,45.738533,0
+            21.22064,45.739626,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 74 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=74-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22756,45.752253,0
+            21.227957,45.753066,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 74 - segment 2</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=74-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.227206,45.751493,0
+            21.226906,45.750876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 75 - segment 1</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 15.0 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=75-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.236808,45.74912,0
+            21.236803,45.749255,0
+            21.23713,45.749629,0
+            21.237532,45.750037,0
+            21.23779,45.750311,0
+            21.237795,45.750468,0
+            21.23794,45.750588,0
+            21.238471,45.751273,0
+            21.239818,45.75344,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 75 - segment 2</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 15.0 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=75-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.23588,45.749223,0
+            21.236755,45.749783,0
+            21.237549,45.750483,0
+            21.237677,45.75052,0
+            21.237758,45.750588,0
+            21.2383,45.751216,0
+            21.23926,45.752717,0
+            21.239828,45.753769,0
+            21.240016,45.754057,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 76 - segment 1</name>
+        <description><![CDATA[Punctaj total: 43.75<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=76-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232828,45.752732,0
+            21.233386,45.753026,0
+            21.233842,45.753427,0
+            21.234091,45.753674,0
+            21.234456,45.75422,0
+            21.23506,45.755384,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 76 - segment 2</name>
+        <description><![CDATA[Punctaj total: 50.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=76-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235145,45.755369,0
+            21.234901,45.754858,0
+            21.234569,45.754235,0
+            21.234207,45.753676,0
+            21.233474,45.753,0
+            21.232874,45.752674,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 77 - segment 1</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 10.0 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 16.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=77-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232619,45.752562,0
+            21.231363,45.752083,0
+            21.230677,45.751873,0
+            21.23032,45.751774,0
+            21.229607,45.751608,0
+            21.229006,45.751503,0
+            21.227624,45.75149,0
+            21.227346,45.751508,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 77 - segment 2</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=77-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.23257,45.752624,0
+            21.231259,45.752122,0
+            21.23046,45.751888,0
+            21.23024,45.75183,0
+            21.229743,45.751712,0
+            21.228894,45.751559,0
+            21.228108,45.75155,0
+            21.227632,45.75155,0
+            21.22737,45.751578,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 1</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.222,45.72592,0
+            21.225865,45.725454,0
+            21.226863,45.725364,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 2</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.227109,45.725349,0
+            21.230081,45.725012,0
+            21.233278,45.724682,0
+            21.234384,45.724675,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 3</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.236819,45.724735,0
+            21.239029,45.72478,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 4</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.242226,45.72472,0
+            21.243396,45.72472,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 5</name>
+        <description><![CDATA[Punctaj total: 40.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.253878,45.72478,0
+            21.254983,45.7249,0
+            21.25538,45.72487,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 6</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.248825,45.72484,0
+            21.247194,45.7249,0
+            21.245445,45.7249,0
+            21.245005,45.724825,0
+            21.241969,45.724832,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 7</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.239437,45.724855,0
+            21.238836,45.7249,0
+            21.236851,45.724832,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 8</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.234673,45.724772,0
+            21.233268,45.724795,0
+            21.22712,45.725446,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 79 - segment 9</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=79-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.226873,45.725469,0
+            21.21858,45.726382,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 80 - segment 1</name>
+        <description><![CDATA[Punctaj total: 48.75<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 32.5 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=80-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.17472,45.762508,0
+            21.183679,45.764327,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 81 - segment 1</name>
+        <description><![CDATA[Punctaj total: 46.25<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 35.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=81-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.251121,45.75268,0
+            21.251078,45.752193,0
+            21.252108,45.751318,0
+            21.252408,45.750891,0
+            21.252982,45.74982,0
+            21.253379,45.748937,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 81 - segment 2</name>
+        <description><![CDATA[Punctaj total: 42.5<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=81-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.250504,45.752366,0
+            21.251813,45.751254,0
+            21.252051,45.750892,0
+            21.252537,45.750034,0
+            21.252907,45.749236,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 82 - segment 1</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 8.75 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=82-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22505,45.751184,0
+            21.2258,45.75104,0
+            21.226906,45.750876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 83 - segment 1</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=83-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.243696,45.735528,0
+            21.243533,45.735418,0
+            21.242763,45.735044,0
+            21.241373,45.734377,0
+            21.241143,45.73431,0
+            21.240864,45.734261,0
+            21.240773,45.733632,0
+            21.240824,45.733523,0
+            21.240891,45.733447,0
+            21.240904,45.733372,0
+            21.240899,45.73334,0
+            21.240836,45.73283,0
+            21.240892,45.732825,0
+            21.240967,45.732779,0
+            21.240984,45.732704,0
+            21.240971,45.732436,0
+            21.240944,45.732247,0
+            21.240907,45.732179,0
+            21.240794,45.732065,0
+            21.24077,45.731861,0
+            21.24073,45.731486,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 84 - segment 1</name>
+        <description><![CDATA[Punctaj total: 57.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 38.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=84-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.24025,45.746712,0
+            21.241227,45.745229,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 84 - segment 2</name>
+        <description><![CDATA[Punctaj total: 47.5<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 30.0 / 65.0<br>Obstacole / observații: 12.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=84-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240221,45.746698,0
+            21.241195,45.745219,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 85 - segment 1</name>
+        <description><![CDATA[Punctaj total: 56.25<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 41.25 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=85-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.256158,45.741633,0
+            21.259618,45.742341,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 85 - segment 2</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 13.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=85-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.256149,45.741652,0
+            21.259601,45.74236,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 87 - segment 1</name>
+        <description><![CDATA[Punctaj total: 52.5<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=87-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235489,45.77437,0
+            21.237178,45.773869,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 87 - segment 2</name>
+        <description><![CDATA[Punctaj total: 55.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 43.75 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=87-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.235524,45.774444,0
+            21.237224,45.773927,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 89 - segment 1</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=89-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.208426,45.764643,0
+            21.211001,45.763932,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 89 - segment 2</name>
+        <description><![CDATA[Punctaj total: 58.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 40.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=89-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.208448,45.764616,0
+            21.210973,45.763908,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 92 - segment 1</name>
+        <description><![CDATA[Punctaj total: 45.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 33.75 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=92-dus]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.237288,45.731615,0
+            21.237237,45.730811,0
+            21.237275,45.730714,0
+            21.237172,45.729702,0
+            21.236888,45.727398,0
+            21.236545,45.724615,0
+            21.236432,45.721432,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 92 - segment 2</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=92-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.236496,45.721436,0
+            21.236614,45.72466,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 92 - segment 3</name>
+        <description><![CDATA[Punctaj total: 41.25<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 31.25 / 65.0<br>Obstacole / observații: 7.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=92-intors]]></description>
+        <styleUrl>#line-F5EB1E-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.237099,45.728795,0
+            21.237313,45.730721,0
+            21.237273,45.730828,0
+            21.237327,45.731611,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Calitate slaba</name>
+      <Placemark>
+        <name>Pista 1 - segment 1</name>
+        <description><![CDATA[Punctaj total: 38.75<br><br>Conectivitate: 7.5 / 15.0<br>Calitate Pistă: 21.25 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=1-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.260068,45.732475,0
+            21.260267,45.732636,0
+            21.260229,45.732722,0
+            21.260283,45.732891,0
+            21.260305,45.733002,0
+            21.260305,45.733122,0
+            21.260251,45.733283,0
+            21.260213,45.733366,0
+            21.260123,45.733444,0
+            21.259924,45.733578,0
+            21.259741,45.733643,0
+            21.259527,45.733703,0
+            21.259312,45.733737,0
+            21.259173,45.733808,0
+            21.25884,45.733733,0
+            21.258797,45.733643,0
+            21.25869,45.733613,0
+            21.258572,45.73364,0
+            21.25833,45.733448,0
+            21.258379,45.7334,0
+            21.258358,45.733256,0
+            21.258299,45.733118,0
+            21.258304,45.732972,0
+            21.258368,45.732816,0
+            21.258459,45.7327,0
+            21.258582,45.732576,0
+            21.258604,45.732464,0
+            21.258524,45.732366,0
+            21.258609,45.732306,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 3 - segment 2</name>
+        <description><![CDATA[Punctaj total: 31.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 3.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=3-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.240883,45.73844,0
+            21.243902,45.738066,0
+            21.245578,45.737893,0
+            21.246362,45.737758,0
+            21.249517,45.737384,0
+            21.250198,45.737346,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 3 - segment 3</name>
+        <description><![CDATA[Punctaj total: 31.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 3.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=3-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.23838,45.73875,0
+            21.240228,45.738521,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 10 - segment 2</name>
+        <description><![CDATA[Punctaj total: 36.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=10-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225328,45.747848,0
+            21.225221,45.746953,0
+            21.22543,45.745227,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 10 - segment 3</name>
+        <description><![CDATA[Punctaj total: 36.25<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 22.5 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=10-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.225894,45.742203,0
+            21.225564,45.744388,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 20 - segment 2</name>
+        <description><![CDATA[Punctaj total: 37.5<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 26.25 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=20-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.234931,45.780291,0
+            21.234421,45.77916,0
+            21.234207,45.778604,0
+            21.233957,45.777994,0
+            21.233496,45.776928,0
+            21.232884,45.775491,0
+            21.232503,45.774606,0
+            21.231734,45.772801,0
+            21.230814,45.770569,0
+            21.230808,45.770453,0
+            21.230698,45.770068,0
+            21.230548,45.769643,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 21 - segment 1</name>
+        <description><![CDATA[Punctaj total: 38.75<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 8.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=21-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216059,45.73861,0
+            21.216024,45.738672,0
+            21.215611,45.739177,0
+            21.214337,45.741043,0
+            21.213543,45.742154,0
+            21.213025,45.742973,0
+            21.213132,45.743102,0
+            21.212923,45.743222,0
+            21.212894,45.743189,0
+            21.21247,45.743657,0
+            21.211456,45.74506,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 27 - segment 1</name>
+        <description><![CDATA[Punctaj total: 33.75<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 21.25 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=27-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.210914,45.763036,0
+            21.211467,45.763945,0
+            21.212282,45.764709,0
+            21.215876,45.767126,0
+            21.217014,45.76771,0
+            21.218322,45.768212,0
+            21.218859,45.768376,0
+            21.219825,45.768541,0
+            21.220485,45.768557,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 31 - segment 1</name>
+        <description><![CDATA[Punctaj total: 35.0<br><br>Conectivitate: 5.0 / 15.0<br>Calitate Pistă: 20.0 / 65.0<br>Obstacole / observații: 10.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=31-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.221761,45.753045,0
+            21.223706,45.753487,0
+            21.224948,45.753773,0
+            21.225036,45.753816,0
+            21.225189,45.753919,0
+            21.225237,45.753996,0
+            21.225248,45.754056,0
+            21.225087,45.754503,0
+            21.225055,45.754652,0
+            21.224982,45.755328,0
+            21.224765,45.7570777,0
+            21.2250523,45.7576971,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 49 - segment 1</name>
+        <description><![CDATA[Punctaj total: 35.0<br><br>Conectivitate: 1.25 / 15.0<br>Calitate Pistă: 27.5 / 65.0<br>Obstacole / observații: 6.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=49-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22321,45.770374,0
+            21.222732,45.771671,0
+            21.222697,45.771781,0
+            21.22263,45.771826,0
+            21.222019,45.773596,0
+            21.222035,45.773667,0
+            21.222002,45.773806,0
+            21.221879,45.774172,0
+            21.221643,45.77472,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 50 - segment 1</name>
+        <description><![CDATA[Punctaj total: 28.75<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 3.75 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=50-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.247534,45.762467,0
+            21.2514,45.763377,0
+            21.251893,45.763448,0
+            21.255444,45.763669,0
+            21.2558,45.763725,0
+            21.256992,45.763999,0
+            21.257954,45.764212,0
+            21.258891,45.764458,0
+            21.259324,45.764646,0
+            21.260439,45.765239,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 50 - segment 2</name>
+        <description><![CDATA[Punctaj total: 27.5<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 2.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=50-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.260425,45.765495,0
+            21.259494,45.76496,0
+            21.258993,45.764715,0
+            21.25845,45.764523,0
+            21.256997,45.764179,0
+            21.255646,45.763876,0
+            21.253791,45.763753,0
+            21.251829,45.763652,0
+            21.251617,45.763629,0
+            21.251244,45.763568,0
+            21.250893,45.763494,0
+            21.249814,45.763232,0
+            21.248044,45.762812,0
+            21.247707,45.762719,0
+            21.247456,45.762652,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 67 - segment 1</name>
+        <description><![CDATA[Punctaj total: 36.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 25.0 / 65.0<br>Obstacole / observații: 11.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=67-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.209141,45.747924,0
+            21.20835,45.749094,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 73 - segment 1</name>
+        <description><![CDATA[Punctaj total: 25.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 20.0 / 65.0<br>Obstacole / observații: 2.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=73-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.22285,45.740611,0
+            21.225023,45.741336,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 73 - segment 3</name>
+        <description><![CDATA[Punctaj total: 25.0<br><br>Conectivitate: 2.5 / 15.0<br>Calitate Pistă: 20.0 / 65.0<br>Obstacole / observații: 2.5 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=73-dus]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.216059,45.73861,0
+            21.22012,45.739596,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 86 - segment 2</name>
+        <description><![CDATA[Punctaj total: 35.0<br><br>Conectivitate: 6.25 / 15.0<br>Calitate Pistă: 23.75 / 65.0<br>Obstacole / observații: 5.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=86-intors]]></description>
+        <styleUrl>#line-F6871F-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.232431,45.764939,0
+            21.233037,45.764892,0
+            21.233874,45.764769,0
+            21.235789,45.764335,0
+            21.237554,45.763867,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Calitate precara</name>
+      <Placemark>
+        <name>Pista 35 - segment 2</name>
+        <description><![CDATA[Punctaj total: 1.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 0.0 / 65.0<br>Obstacole / observații: 1.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=35-intors]]></description>
+        <styleUrl>#line-ED2224-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.247701,45.754843,0
+            21.242832,45.754338,0
+            21.241733,45.754228,0
+            21.240952,45.75414,0
+            21.2404,45.75413,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 70 - segment 2</name>
+        <description><![CDATA[Punctaj total: 1.25<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 0.0 / 65.0<br>Obstacole / observații: 1.25 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=70-intors]]></description>
+        <styleUrl>#line-ED2224-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.236813,45.749141,0
+            21.237027,45.749045,0
+            21.23734,45.748997,0
+            21.237747,45.748895,0
+            21.238204,45.748744,0
+            21.238531,45.748607,0
+            21.238621,45.748563,0
+            21.238826,45.748454,0
+            21.239121,45.748277,0
+            21.239164,45.748241,0
+            21.23937,45.748103,0
+            21.239628,45.747916,0
+            21.239926,45.747633,0
+            21.24017,45.747352,0
+            21.240347,45.747019,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Urmeaza a fi evaluate</name>
+      <Placemark>
+        <name>Pista 48 - segment 1</name>
+        <description><![CDATA[Punctaj total: 0.0<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 0.0 / 65.0<br>Obstacole / observații: 0.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=48-dus]]></description>
+        <styleUrl>#line-A0A0A0-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.226192,45.763627,0
+            21.226455,45.763762,0
+            21.226584,45.763908,0
+            21.226825,45.764287,0
+            21.226902,45.764373,0
+            21.226704,45.764725,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pista 48 - segment 2</name>
+        <description><![CDATA[Punctaj total: 0.0<br><br>Conectivitate: 0.0 / 15.0<br>Calitate Pistă: 0.0 / 65.0<br>Obstacole / observații: 0.0 / 20.0<br>https://pedaleaza.ro/vrempiste/detalii-pista/?laneId=48-intors]]></description>
+        <styleUrl>#line-A0A0A0-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            21.231658,45.764945,0
+            21.230162,45.76484,0
+            21.229845,45.764806,0
+            21.229218,45.764795,0
+            21.227301,45.764721,0
+            21.226704,45.764725,0
+            21.226629,45.764741,0
+            21.226068,45.764946,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
