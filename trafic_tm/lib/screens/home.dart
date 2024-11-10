@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:trafic_tm/screens/updateprofile.dart';
 import 'package:trafic_tm/shared/customtext.dart';
 import 'package:auth0_flutter/auth0_flutter.dart';
@@ -53,7 +54,9 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    auth0 = Auth0('dev-m6gpcnrtxv3jbetk.us.auth0.com', 'WDbXRd1I7r5bWYwhn8wioSd67oYnDSQ2');
+    String domain = dotenv.env["AUTH0_DOMAIN"]!;
+    String client = dotenv.env["AUTH0_CLIENT_ID"]!;
+    auth0 = Auth0(domain, client);
   }
 
   @override
@@ -61,8 +64,6 @@ class _HomeState extends State<Home> {
 
     Constants constants = Constants();
     Color? primaryColor = constants.getPrimaryColor();
-
-    auth0 = Auth0('dev-m6gpcnrtxv3jbetk.us.auth0.com', 'WDbXRd1I7r5bWYwhn8wioSd67oYnDSQ2');
 
     String s = 'Settings';
     bool isDark = MediaQuery.of(context).platformBrightness == Brightness.dark;
@@ -163,7 +164,7 @@ class _HomeState extends State<Home> {
                     onPress: () async {
                       storage.remove('loginstatus');
                       storage.write('loginstatus', 'false');
-                      await auth0.webAuthentication().logout(useHTTPS: true);
+                      await auth0.webAuthentication(scheme: "demo").logout(useHTTPS: false);
                       setState(() {
 
                       });

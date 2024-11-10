@@ -11,8 +11,8 @@ import 'package:http/http.dart' as http;
 
 class ApiHandler {
   static final ApiHandler _singleton = ApiHandler._internal();
-  //static final String url = "http://192.168.198.60:3000";
-  static final String url = "http://192.168.100.75:3000";
+  static final String url = "http://192.168.198.60:3000";
+  //static final String url = "http://192.168.100.75:3000";
 
   factory ApiHandler() {
     return _singleton;

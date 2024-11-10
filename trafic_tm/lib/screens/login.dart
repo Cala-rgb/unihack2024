@@ -47,7 +47,7 @@ class _LogInState extends State<LogIn> {
       return Scaffold(
         appBar: AppBar(
           title: const Text(
-            'Welcome to O${"'"}Block!',
+            'Timisoara Transport',
             style: CustomTextStyle.customText,
           ),
           backgroundColor: primaryColor,
