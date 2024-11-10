@@ -8,7 +8,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:trafic_tm/shared/customtext.dart';
 
-import '../profileview.dart';
 import '../shared/constants.dart';
 import '../wrapper.dart';
 
