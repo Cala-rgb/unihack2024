@@ -18,12 +18,17 @@ class _MapScreenState extends State<MapScreen> {
 
   Set<Polygon> all_polygons = {};
   bool polygonSelected = false;
-  String polygonName = "";
-  String idSelected = "";
+  String _polygonName = "";
+  int _freespaces = 0;
+  int _totalspaces = 0;
+  String _zone = "";
+  double _price = 0.0;
+  String _idSelected = "";
 
   Future<Position> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
+    print('test100000000000000000000');
 
     // Test if location services are enabled.
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
@@ -55,8 +60,20 @@ class _MapScreenState extends State<MapScreen> {
 
     // When we reach here, permissions are granted and we can
     // continue accessing the position of the device.
-    return await Geolocator.getCurrentPosition();
+    print('2222222222222222222222222222222222222222');
+    print(await Geolocator.getCurrentPosition());
+    dynamic result = await Geolocator.getCurrentPosition();
+    lat = result.latitude;
+    lon = result.longitude;
+    _center = LatLng(lat, lon);
+    print("test ${lat} ${lon}");
+
+    return result;
   }
+
+  LatLng _center = LatLng(0, 0);
+
+  late double lat = 0.0,lon = 0.0;
 
   @override
   Widget build(BuildContext context) {
@@ -65,8 +82,6 @@ class _MapScreenState extends State<MapScreen> {
     var textColor = isDark ? Colors.white : Colors.black;
 
     late GoogleMapController mapController;
-
-    LatLng _center = LatLng(0, 0);
 
     void _showModalSheet() {
       showModalBottomSheet(
@@ -88,7 +103,7 @@ class _MapScreenState extends State<MapScreen> {
                     Container(
                       padding: EdgeInsets.all(10),
                       child: Text(
-                        polygonName,
+                      _polygonName,
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 24,
@@ -98,7 +113,7 @@ class _MapScreenState extends State<MapScreen> {
                     Container(
                       padding: EdgeInsets.all(10),
                       child: Text(
-                        "Free spaces: 10",
+                        "Free spaces: ${_freespaces}",
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -108,7 +123,7 @@ class _MapScreenState extends State<MapScreen> {
                     Container(
                       padding: EdgeInsets.all(10),
                       child: Text(
-                        "Total spaces: 20",
+                        "Total spaces: ${_totalspaces}",
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -118,7 +133,7 @@ class _MapScreenState extends State<MapScreen> {
                     Container(
                       padding: EdgeInsets.all(10),
                       child: Text(
-                        "Price: 2.5 RON/h",
+                        "Price: ${_price} RON/h",
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -128,7 +143,7 @@ class _MapScreenState extends State<MapScreen> {
                     Container(
                       padding: EdgeInsets.all(10),
                       child: Text(
-                        "Zone: Red",
+                        "Zone: ${_zone}",
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,
@@ -152,18 +167,31 @@ class _MapScreenState extends State<MapScreen> {
         for (List<double> point in parking.geometry.coordinates[0]) {
           points.add(LatLng(point[1], point[0]));
         }
+        Color color;
+        if(parking.freeSpaces/parking.totalSpaces < 0.33)
+        {
+          color = Colors.red;
+        } else if(parking.freeSpaces/parking.totalSpaces < 0.66) {
+          color = Colors.yellow;
+        } else {
+          color = Colors.green;
+        }
         polygons.add(Polygon(
           polygonId: PolygonId(id),
           points: points,
           strokeWidth: 2,
-          strokeColor: (id == idSelected) ? Colors.white : Colors.green,
-          fillColor: (id == idSelected) ? Colors.white.withOpacity(0.15) : Colors.green.withOpacity(0.15),
+          strokeColor: (id == _idSelected) ? Colors.white : color,
+          fillColor: (id == _idSelected) ? Colors.white.withOpacity(0.15) : color.withOpacity(0.15),
           consumeTapEvents: true,
           onTap: () {
             setState(() {
               polygonSelected = true;
-              polygonName = parking.name;
-              idSelected = id;
+              _polygonName = parking.name;
+              _freespaces = parking.freeSpaces;
+              _price = parking.price;
+              _zone = parking.zone;
+              _idSelected = id;
+              _totalspaces = parking.totalSpaces;
               _showModalSheet();
             });
           },
@@ -173,12 +201,14 @@ class _MapScreenState extends State<MapScreen> {
       return polygons;
     }
 
-    void _onMapCreated(GoogleMapController controller) async {
+    void _onMapCreated(GoogleMapController controller) {
       mapController = controller;
-      _determinePosition().then((Position value) {
-        print(value);
-      });
-      //_center = LatLng(position.latitude, position.longitude);
+      print('33333333333333333333333333333333');
+      print(_center);
+      _center = LatLng(lat, lon);
+      print(_center);
+      print('43333333333333333333333333333333');
+
     }
 
     ApiHandler api = ApiHandler();
@@ -261,9 +291,13 @@ class _MapScreenState extends State<MapScreen> {
           ],
         ),
       ),
-      body: Builder(
-            builder: (context) {
-              return GoogleMap(
+      body: FutureBuilder<Position>(
+        future: _determinePosition(),
+        builder: (BuildContext context, AsyncSnapshot<Position> snapshot) {
+          Widget child;
+          if (snapshot.hasData) {
+            child =
+              GoogleMap(
                 onMapCreated: _onMapCreated,
                 initialCameraPosition: CameraPosition(
                   target: _center,
@@ -271,8 +305,36 @@ class _MapScreenState extends State<MapScreen> {
                 ),
                 polygons: all_polygons,
               );
-        }
+          } else if (snapshot.hasError) {
+            child =
+              const Icon(
+                Icons.error_outline,
+                color: Colors.red,
+                size: 60,
+              );
+          } else {
+            child = SizedBox(
+                width: 60,
+                height: 60,
+                child: CircularProgressIndicator(),
+              );
+          }
+          return Center(
+              child: child
+          );
+        },
       ),
     );
   }
 }
+
+/*
+return GoogleMap(
+                onMapCreated: _onMapCreated,
+                initialCameraPosition: CameraPosition(
+                  target: _center,
+                  zoom: 11.0,
+                ),
+                polygons: all_polygons,
+              );
+ */
