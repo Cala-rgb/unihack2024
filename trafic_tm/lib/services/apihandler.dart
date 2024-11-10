@@ -11,7 +11,7 @@ import 'package:http/http.dart' as http;
 
 class ApiHandler {
   static final ApiHandler _singleton = ApiHandler._internal();
-  static final String url = "http://192.168.100.75:3000";
+  static final String url = "http://192.168.198.60:3000";
 
   factory ApiHandler() {
     return _singleton;
@@ -32,6 +32,21 @@ class ApiHandler {
     Iterable l = json.decode(response.body);
     parkingSpaces = List<Parking>.from(l.map((model)=> Parking.fromJson(model)));
     return parkingSpaces;
+  }
+
+  Future<List<Parking>> getAllParkingSpacesFromZone(String zone) async {
+    List<Parking> parkingSpaces = [];
+    var response = await http.get(Uri.parse(url + "/api/parkingSpacesAll"));
+    print(response.body);
+    Iterable l = json.decode(response.body);
+    parkingSpaces = List<Parking>.from(l.map((model)=> Parking.fromJson(model)));
+    List<Parking> newlist = [];
+    for(Parking parkingspace in parkingSpaces){
+      if(parkingspace.zone == zone){
+        newlist.add(parkingspace);
+      }
+    }
+    return newlist;
   }
 
   Future<List<BikeTrack>> getAllBikeTracks() async {

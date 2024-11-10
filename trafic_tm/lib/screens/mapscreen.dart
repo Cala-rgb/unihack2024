@@ -287,40 +287,60 @@ class _MapScreenState extends State<MapScreen> {
               leading: Icon(Icons.local_parking),
               title: Text('Parcări TIMPARK Albastre'),
               onTap: () {
-                // Handle Settings tap
                 Navigator.pop(context);
+                ApiHandler().getAllParkingSpacesFromZone('Zona Albastra').then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                  });
+                });
               },
             ),
             ListTile(
               leading: Icon(Icons.local_parking),
               title: Text('Parcări TIMPARK Galbene'),
               onTap: () {
-                // Handle About tap
                 Navigator.pop(context);
+                ApiHandler().getAllParkingSpacesFromZone('Zona Galbena').then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                  });
+                });
               },
             ),
             ListTile(
               leading: Icon(Icons.local_parking),
               title: Text('Parcări TIMPARK Rosii'),
               onTap: () {
-                // Handle About tap
                 Navigator.pop(context);
+                ApiHandler().getAllParkingSpacesFromZone('Zona Rosie').then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                  });
+                });
               },
             ),
             ListTile(
               leading: Icon(Icons.local_parking),
               title: Text('Parcări TIMPARK Verzi'),
               onTap: () {
-                // Handle About tap
                 Navigator.pop(context);
+                ApiHandler().getAllParkingSpacesFromZone('Zona Verde').then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                  });
+                });
               },
             ),
             ListTile(
               leading: Icon(Icons.local_parking),
               title: Text('Parcări TIMPARK Verzi Progresive'),
               onTap: () {
-                // Handle About tap
                 Navigator.pop(context);
+                ApiHandler().getAllParkingSpacesFromZone('Zona Verde Progresiv').then((value) {
+                  setState(() {
+                    all_polygons = polygonsFromParking(value);
+                  });
+                });
               },
             ),
           ],
