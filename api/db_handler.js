@@ -46,6 +46,16 @@ async function getParkingSpacesByZone(zone) {
   }
 }
 
+async function getParkingSpacesAll() {
+  try {
+    await client.connect();
+    const result = await client.db("server_data").collection("parking_spaces").find().toArray();
+    return result;
+  } finally {
+    await client.close();
+  }
+}
+
 async function analyzeUserReport(userReport) {
   try {
     await client.connect();
@@ -87,6 +97,7 @@ module.exports = {
 
     getParkingSpaces,
     getParkingSpacesByZone,
+    getParkingSpacesAll,
 
     sendUserReport: async function(userReport) {
       try {
