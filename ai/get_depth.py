@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def get_depth(image_path):
     # Load MiDaS model from torch.hub
-    model = torch.hub.load("intel-isl/MiDaS", "MiDaS_small")  # Choose "MiDaS_small" for faster performance or "MiDaS" for better quality
+    model = torch.hub.load("intel-isl/MiDaS", "MiDaS")  # Choose "MiDaS_small" for faster performance or "MiDaS" for better quality
     model.eval()
 
     # Load transforms to prepare the image for MiDaS
@@ -46,4 +46,4 @@ def get_depth(image_path):
 
     return depth_map
 
-get_depth("img2.jpg")
+# get_depth("image.png")
