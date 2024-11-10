@@ -57,17 +57,19 @@ async function getParkingSpacesAll() {
 }
 
 async function analyzeUserReport(userReport) {
+  userReport.latitude = parseFloat(userReport.latitude);
+  userReport.longitude = parseFloat(userReport.longitude);
+  userReport.free_spaces = parseInt(userReport.free_spaces);
   try {
     await client.connect();
-    const result = getParkingSpaces(userReport.longitude, userReport.latitude, 0.001);
-    if(result.length === 0) {
-      return;
-    }
-    const parkingSpace = result[0];
+    // Increment the number of reports for the parking space
     await client.db("server_data").collection("parking_spaces").updateOne(
-      { _id: ObjectId(parkingSpace._id) },
-      { $set: { free_spaces: userReport.free_spaces } }
+      { "geometry": { $geoIntersects: { $geometry: { type: "Point", coordinates: [ userReport.longitude, userReport.latitude ] } } } },
+      { $inc: { "free_spaces": userReport.free_spaces} }
     );
+
+    
+    
   }
   finally {
     await client.close();
